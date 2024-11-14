@@ -6,6 +6,9 @@ TagManager:
   tags:
   - wall
   - floor
+  - racket
+  - ballPlayer
+  - enemyAttack
   layers:
   - Default
   - TransparentFX
