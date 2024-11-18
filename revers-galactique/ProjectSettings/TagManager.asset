@@ -9,6 +9,7 @@ TagManager:
   - racket
   - ballPlayer
   - enemyAttack
+  - Node
   layers:
   - Default
   - TransparentFX
