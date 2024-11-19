@@ -33,6 +33,14 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "wall")
+        {
+            SetRandomTargetNode();
+        }
+    }
+
     private void RotateTowardsTarget()
     {
         // Calculate the direction to the target

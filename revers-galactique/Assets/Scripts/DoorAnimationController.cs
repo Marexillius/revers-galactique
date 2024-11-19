@@ -18,6 +18,16 @@ public class DoorAnimationController : MonoBehaviour
         gameObject.GetComponent<Animator>().Play("simpleAssets_door_close");
     }
 
+    public void openLargeDoors()
+    {
+        gameObject.GetComponent<Animator>().Play("largeDoor_Opens");
+    }
+
+    public void closeLargeDoors()
+    {
+        gameObject.GetComponent<Animator>().Play("largeDoor_Closes");
+    }
+
     public void endDoor()
     {
         if (HasCard)
@@ -30,11 +40,16 @@ public class DoorAnimationController : MonoBehaviour
         }
     }
 
+    public GameObject Door;
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "accessCard")
         {
             HasCard = true;
+        }
+        else if (other.tag == "Player")
+        {
+            Door.GetComponent<Animator>().Play("simpleAssets_door_close");
         }
     }
 }
