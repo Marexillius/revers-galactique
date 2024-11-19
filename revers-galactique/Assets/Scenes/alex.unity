@@ -331,7 +331,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -526,25 +526,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305923359648529553, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3040295074088274278, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Height
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3040295074088274278, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_Radius
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4091458409484728139, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_LeftHandSnapTurnAction.m_UseReference
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Name
       value: Joueur
-      objectReference: {fileID: 0}
-    - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
@@ -613,7 +605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7725124673976890715, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.6
+      value: 2.35
       objectReference: {fileID: 0}
     - target: {fileID: 7725124673976890715, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
       propertyPath: m_LocalRotation.w
@@ -653,6 +645,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7581677177719629229, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1511397158}
+    - targetCorrespondingSourceObject: {fileID: 7581677177719629229, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1511397162}
+    - targetCorrespondingSourceObject: {fileID: 7581677177719629229, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1511397161}
   m_SourcePrefab: {fileID: 100100000, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
 --- !u!1 &1511397156 stripped
 GameObject:
@@ -687,6 +685,54 @@ MonoBehaviour:
   moveSpeed: 3
   rotationSpeed: 5
   nodeReachThreshold: 1
+--- !u!65 &1511397161
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511397156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 6, z: 3}
+  m_Center: {x: 0, y: 2.8, z: 0}
+--- !u!54 &1511397162
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511397156}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1533498492
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +767,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -826,7 +872,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -891,7 +937,7 @@ Transform:
   m_GameObject: {fileID: 1684806882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.2, y: 5.14, z: -10.57}
+  m_LocalPosition: {x: 0.2, y: 5.14, z: -5.36}
   m_LocalScale: {x: 1, y: 10.002, z: 22.100246}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1128,7 +1174,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1385,10 +1431,6 @@ PrefabInstance:
     - target: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
       propertyPath: m_Name
       value: ball
-      objectReference: {fileID: 0}
-    - target: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
-      propertyPath: m_TagString
-      value: ballPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 1065775942860533841, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
       propertyPath: m_LocalScale.x
