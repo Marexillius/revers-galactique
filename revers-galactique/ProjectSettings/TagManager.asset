@@ -10,6 +10,8 @@ TagManager:
   - ballPlayer
   - enemyAttack
   - Node
+  - Door_Large
+  - sampleDoor
   layers:
   - Default
   - TransparentFX

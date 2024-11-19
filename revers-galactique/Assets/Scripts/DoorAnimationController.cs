@@ -40,16 +40,17 @@ public class DoorAnimationController : MonoBehaviour
         }
     }
 
-    public GameObject Door;
     public void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "accessCard")
+        if (other.tag == "Player")
         {
-            HasCard = true;
-        }
-        else if (other.tag == "Player")
+            gameObject.GetComponent<Animator>().Play("simpleAssets_door_close");
+            Debug.Log("should close");
+        } 
+        else if (other.tag == "Player" && gameObject.tag == "Door_Large")
         {
-            Door.GetComponent<Animator>().Play("simpleAssets_door_close");
+            gameObject.GetComponent<Animator>().Play("largeDoor_Opens");
+            Debug.Log("should open");
         }
     }
 }
