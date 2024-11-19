@@ -40,11 +40,16 @@ public class DoorAnimationController : MonoBehaviour
         }
     }
 
+    public GameObject Door;
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "accessCard")
         {
             HasCard = true;
+        }
+        else if (other.tag == "Player")
+        {
+            Door.GetComponent<Animator>().Play("simpleAssets_door_close");
         }
     }
 }
