@@ -7,7 +7,7 @@ public class LevelSwitcher : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Capsule")
+        if (other.tag == "Player")
         {
             SceneManager.LoadScene("alex"); //replace the scene name
         } 

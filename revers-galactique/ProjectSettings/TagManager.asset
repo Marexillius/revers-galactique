@@ -12,6 +12,7 @@ TagManager:
   - Node
   - Door_Large
   - sampleDoor
+  - AccessCard
   layers:
   - Default
   - TransparentFX

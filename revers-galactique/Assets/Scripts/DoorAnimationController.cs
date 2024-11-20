@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoorAnimationController : MonoBehaviour
 {
 
-    private bool HasCard = false;
+    private static bool HasCard = false;
 
 
     public void openSampleDoors()
@@ -30,12 +30,13 @@ public class DoorAnimationController : MonoBehaviour
 
     public void endDoor()
     {
-        if (HasCard)
+        if (HasCard == true)
         {
-            gameObject.GetComponent<Animator>().Play("simpleAssets_door_close");
+            gameObject.GetComponent<Animator>().Play("simpleAssets_door_opens");
         }
         else
         {
+            Debug.Log("get cards lmao");
             //play sound to say refused
         }
     }
@@ -52,6 +53,11 @@ public class DoorAnimationController : MonoBehaviour
         {
             gameObject.GetComponent<Animator>().Play("largeDoor_Opens");
             Debug.Log("should open");
+        } else if (other.tag == "Player" && gameObject.tag == "AccessCard")
+        {
+            Debug.Log("got card");
+            HasCard = true;
+            gameObject.SetActive(false);
         }
     }
 
@@ -60,7 +66,7 @@ public class DoorAnimationController : MonoBehaviour
         if (other.tag == "Player" && gameObject.tag == "Door_Large")
         {
             gameObject.GetComponent<Animator>().Play("largeDoor_Closes");
-            Debug.Log("should open");
+            Debug.Log("should close");
         }
     }
 }
