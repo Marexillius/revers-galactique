@@ -6,6 +6,8 @@ public class EnemyAI : MonoBehaviour
     public float rotationSpeed = 5f; // Adjust for smoother or faster turning
     public float nodeReachThreshold = 1f;
 
+    public GameObject MyNodeArea;
+
     private Transform currentTarget;
 
     private void Start()
