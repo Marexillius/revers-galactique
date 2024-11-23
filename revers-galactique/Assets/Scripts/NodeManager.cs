@@ -7,28 +7,8 @@ public class NodeManager : MonoBehaviour
     public static NodeManager Instance { get; private set; }
     private List<Transform> nodes;
 
-    private GameObject noder; //doesnt really work, we should find a way to put this into the enemyAI script
-    private List<Transform> noders;
-
     private void Awake()
     {
-        if (Instance == null)
-        {
-            /*Instance = this;
-            noders = new List<Transform>();
-
-            for (int i = 0; i < noder.transform.childCount; i++)
-            {
-                noders.Add(noder.transform.GetChild(i));
-            }
-                    I think that was it?
-             */
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
         if (Instance == null)
         {
             Instance = this;
@@ -46,6 +26,8 @@ public class NodeManager : MonoBehaviour
 
     public Transform GetRandomNode()
     {
+        Debug.Log("get Random");
+
         if (nodes.Count == 0) return null;
         return nodes[Random.Range(0, nodes.Count)];
     }
