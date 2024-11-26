@@ -9,7 +9,7 @@ public class enemyHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(healthPoints);
+        //Debug.Log(healthPoints);
         if (other.tag == "enemyAttack")
         {
             healthPoints--;

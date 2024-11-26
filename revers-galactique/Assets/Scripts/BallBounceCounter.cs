@@ -11,7 +11,7 @@ public class BallBounceCounter : MonoBehaviour
         foreach (ContactPoint contact in collision.contacts)
         {
             BounceCounter++;
-            Debug.Log(BounceCounter);
+            //Debug.Log(BounceCounter);
         }
 
         if (BounceCounter == 10)
