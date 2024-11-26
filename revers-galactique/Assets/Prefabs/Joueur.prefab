@@ -680,9 +680,10 @@ GameObject:
   - component: {fileID: 7368874873263731578}
   - component: {fileID: 3040295074088274278}
   - component: {fileID: 9160727755889212767}
+  - component: {fileID: 3591600061270064854}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -753,13 +754,13 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 4
+  m_Height: 3
   m_Radius: 0.7
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!114 &9160727755889212767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,6 +776,18 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 2136225728381952720}
   m_MinHeight: 0
   m_MaxHeight: Infinity
+--- !u!114 &3591600061270064854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2241663138177228492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886e08df241d12c46b0bc1541355c74b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2326053568539926551
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 7394012565218398492}
-  m_MoveSpeed: 1
+  m_MoveSpeed: 10
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 1
@@ -932,7 +945,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9074529701560082079}
-  - component: {fileID: 5033165567876534600}
   m_Layer: 0
   m_Name: Joueur
   m_TagString: Player
@@ -960,27 +972,6 @@ Transform:
   - {fileID: 4608171324020449863}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5033165567876534600
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4747765240063692800}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.74, y: 3.77, z: 1.9}
-  m_Center: {x: 0, y: 0, z: -0.5}
 --- !u!1 &5199207459315768029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,7 +1043,7 @@ Transform:
   m_GameObject: {fileID: 5858543671142997089}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.1176, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
