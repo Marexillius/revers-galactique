@@ -24,9 +24,20 @@ public class enemyHealth : MonoBehaviour
 
         if (healthPoints <= 0)
         {
-            // Death sequence here
-            Destroy(container.GetComponent<EnemyAI>());
-            gameObject.GetComponent<Animator>().Play("ennemi_die_anim");
+            StartCoroutine(DeathSequence());
         }
+    }
+
+    private IEnumerator DeathSequence()
+    {
+        // Death sequence here
+        Destroy(container.GetComponent<EnemyAI>());
+        gameObject.GetComponent<Animator>().Play("ennemi_die_anim");
+
+        yield return new WaitForSeconds(2);
+
+        Destroy(container);
+
+        yield break;
     }
 }
