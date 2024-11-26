@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
@@ -53,7 +54,7 @@ public class EnemyAINodeArea : MonoBehaviour
     private void Update()
     {
         if (currentTarget == null) return;
-        if (lineOfSight){
+        if (lineOfSight == true){
             RotateTowardsPlayer();
             if (Vector3.Distance(transform.position, Player.transform.position) < 10f)
             {
@@ -63,7 +64,7 @@ public class EnemyAINodeArea : MonoBehaviour
                 Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
                 MoveTowardsPlayer();
             }
-        } else
+        } else if (lineOfSight == false)
         {
             RotateTowardsTarget();
             MoveTowardsTarget();
@@ -72,7 +73,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void MoveTowardsTarget()
     {
-
+        Debug.Log("im walking here");
         // Move towards the target node
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, moveSpeed * Time.deltaTime);
         Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
@@ -86,6 +87,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void MoveTowardsPlayer()
     {
+        Debug.Log("swiggity coming for your booty");
         Player.transform.position = new Vector3(Player.transform.position.x, transform.position.y, Player.transform.position.z);
         transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, moveSpeed * Time.deltaTime);
     }
@@ -132,6 +134,6 @@ public class EnemyAINodeArea : MonoBehaviour
     public Transform GetRandomNode()
     {
         if (nodes.Count == 0) return null;
-        return nodes[Random.Range(0, nodes.Count)];
+        return nodes[UnityEngine.Random.Range(0, nodes.Count)];
     }
 }
