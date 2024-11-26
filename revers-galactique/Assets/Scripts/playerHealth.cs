@@ -11,17 +11,20 @@ public class playerHealth : MonoBehaviour
         if (other.tag == "enemyAttack")
         {
             healthPoints--;
-            other.transform.localScale = Vector3.one;
-            Destroy(other);
+            /*other.transform.localScale = Vector3.one;
+            Destroy(other);*/
+            Debug.Log(healthPoints);
         }
         else if (other.tag == "Enemy")
         {
             healthPoints--;
+            Debug.Log(healthPoints);
         }
 
         if (healthPoints == 0)
         {
             // Death sequence here
+            Debug.Log("DEATH");
         }
     }
 }
