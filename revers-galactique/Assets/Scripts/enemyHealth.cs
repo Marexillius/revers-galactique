@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class enemyHealth : MonoBehaviour
 {
-    int healthPoints = 2;
+    public int healthPoints = 2;
+    public GameObject container;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,9 +22,11 @@ public class enemyHealth : MonoBehaviour
             // Stun sequence here
         }
 
-        if (healthPoints == 0)
+        if (healthPoints <= 0)
         {
             // Death sequence here
+            Destroy(container.GetComponent<EnemyAI>());
+            gameObject.GetComponent<Animator>().Play("ennemi_die_anim");
         }
     }
 }

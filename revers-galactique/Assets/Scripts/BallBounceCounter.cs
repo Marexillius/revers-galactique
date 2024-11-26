@@ -16,8 +16,8 @@ public class BallBounceCounter : MonoBehaviour
 
         if (BounceCounter == 10)
         {   
-            gameObject.transform.localScale = Vector3.one;
-            Destroy(gameObject);
+            /*gameObject.transform.localScale = Vector3.one;
+            Destroy(gameObject);*/
         }
     }
 
