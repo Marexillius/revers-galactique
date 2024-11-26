@@ -27,4 +27,9 @@ public class playerHealth : MonoBehaviour
             Debug.Log("DEATH");
         }
     }
+
+    public void deathScreen()
+    {
+        Debug.Log("test");
+    }
 }
