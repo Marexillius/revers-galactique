@@ -11419,6 +11419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spawn_floor
       objectReference: {fileID: 0}
+    - target: {fileID: 121034, guid: da3ce2dcfde5b2745834852e29812b84, type: 3}
+      propertyPath: m_TagString
+      value: floor
+      objectReference: {fileID: 0}
     - target: {fileID: 484078, guid: da3ce2dcfde5b2745834852e29812b84, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0443718
@@ -34342,6 +34346,23 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 64c8d1d017d3a804fa52b5fb34b3adb5, type: 3}
+--- !u!1 &1108996562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
+  m_PrefabInstance: {fileID: 2129806994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1108996569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108996562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99361518d004c094fba66d1098c260b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1110367601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 101002, guid: 98d0123f6f359584e8a58d5650328a5a, type: 3}
@@ -71400,11 +71421,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1065775942860533841, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.046193972
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1065775942860533841, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.0982432
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 1065775942860533841, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -71434,10 +71455,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1065775942860533841, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305016015389070058, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 8cc21350d57e97b4bac8f21c8f317439, type: 2}
+    - target: {fileID: 8041178763442650013, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1108996569}
   m_SourcePrefab: {fileID: 100100000, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
 --- !u!1001 &2130641976
 PrefabInstance:

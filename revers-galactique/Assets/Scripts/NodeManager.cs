@@ -26,8 +26,6 @@ public class NodeManager : MonoBehaviour
 
     public Transform GetRandomNode()
     {
-        Debug.Log("get Random");
-
         if (nodes.Count == 0) return null;
         return nodes[Random.Range(0, nodes.Count)];
     }
