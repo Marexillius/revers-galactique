@@ -11,7 +11,12 @@ public class playerHealth : MonoBehaviour
         if (other.tag == "enemyAttack")
         {
             healthPoints--;
-            other.gameObject.SetActive(false);
+            other.transform.localScale = Vector3.one;
+            Destroy(other);
+        }
+        else if (other.tag == "Enemy")
+        {
+            healthPoints--;
         }
 
         if (healthPoints == 0)
