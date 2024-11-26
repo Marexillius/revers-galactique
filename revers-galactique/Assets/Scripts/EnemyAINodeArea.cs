@@ -10,6 +10,10 @@ public class EnemyAINodeArea : MonoBehaviour
     public float nodeReachThreshold = 1f;
 
     private Transform currentTarget;
+    private bool lineOfSight;
+    public GameObject Player;
+    public GameObject vision;
+    public GameObject Enemy;
 
     //public static EnemyAINodeArea Instance { get; private set; }
     private List<Transform> nodes;
@@ -49,9 +53,13 @@ public class EnemyAINodeArea : MonoBehaviour
     private void Update()
     {
         if (currentTarget == null) return;
-
-        RotateTowardsTarget();
-        MoveTowardsTarget();
+        if (lineOfSight){
+            MoveTowardsPlayer();
+        } else
+        {
+            RotateTowardsTarget();
+            MoveTowardsTarget();
+        }
     }
 
     private void MoveTowardsTarget()
@@ -67,11 +75,37 @@ public class EnemyAINodeArea : MonoBehaviour
         }
     }
 
+    private void MoveTowardsPlayer()
+    {
+
+        // Move towards the target node
+        transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, moveSpeed * Time.deltaTime);
+        Vector3 direction = (Player.transform.position - transform.position).normalized;
+
+        // Calculate the target rotation
+        Quaternion targetRotation = Quaternion.LookRotation(direction);
+
+        // Smoothly rotate towards the target
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+        // Check if we've reached the node
+        if (Vector3.Distance(transform.position, Player.transform.position) < 1f)
+        {
+            Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "wall")
         {
             SetRandomTargetNode();
+        } else if (vision.tag == "Player")
+        {
+            lineOfSight = true;
+        } else
+        {
+            lineOfSight = false;
         }
     }
 
