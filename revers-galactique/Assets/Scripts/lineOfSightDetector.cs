@@ -17,9 +17,14 @@ public class lineOfSightDetector : MonoBehaviour
         if (other.tag == "Player")
         {
             isDetected.lineOfSight = true;
-        } else
+        }
+    }
+
+    /*private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
         {
             isDetected.lineOfSight = false;
         }
-    }
+    }*/
 }
