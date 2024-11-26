@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class EnemyAINodeArea : MonoBehaviour
 {
@@ -53,7 +54,15 @@ public class EnemyAINodeArea : MonoBehaviour
     {
         if (currentTarget == null) return;
         if (lineOfSight){
-            MoveTowardsPlayer();
+            RotateTowardsPlayer();
+            if (Vector3.Distance(transform.position, Player.transform.position) < 10f)
+            {
+                Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
+            } else
+            {
+                Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
+                MoveTowardsPlayer();
+            }
         } else
         {
             RotateTowardsTarget();
@@ -66,6 +75,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
         // Move towards the target node
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, moveSpeed * Time.deltaTime);
+        Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
 
         // Check if we've reached the node
         if (Vector3.Distance(transform.position, currentTarget.position) < nodeReachThreshold)
@@ -76,9 +86,12 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void MoveTowardsPlayer()
     {
-
-        // Move towards the target node
+        Player.transform.position = new Vector3(Player.transform.position.x, transform.position.y, Player.transform.position.z);
         transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, moveSpeed * Time.deltaTime);
+    }
+
+    private void RotateTowardsPlayer()
+    {
         Vector3 direction = (Player.transform.position - transform.position).normalized;
 
         // Calculate the target rotation
@@ -86,18 +99,13 @@ public class EnemyAINodeArea : MonoBehaviour
 
         // Smoothly rotate towards the target
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
-
-        // Check if we've reached the node
-        if (Vector3.Distance(transform.position, Player.transform.position) < 1f)
-        {
-            Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
-        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "wall")
         {
+            lineOfSight = false;
             SetRandomTargetNode();
         }
     }
