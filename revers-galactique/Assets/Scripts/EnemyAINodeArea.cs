@@ -10,9 +10,8 @@ public class EnemyAINodeArea : MonoBehaviour
     public float nodeReachThreshold = 1f;
 
     private Transform currentTarget;
-    private bool lineOfSight;
+    public bool lineOfSight;
     public GameObject Player;
-    public GameObject vision;
     public GameObject Enemy;
 
     //public static EnemyAINodeArea Instance { get; private set; }
@@ -100,12 +99,6 @@ public class EnemyAINodeArea : MonoBehaviour
         if (other.tag == "wall")
         {
             SetRandomTargetNode();
-        } else if (vision.tag == "Player")
-        {
-            lineOfSight = true;
-        } else
-        {
-            lineOfSight = false;
         }
     }
 
