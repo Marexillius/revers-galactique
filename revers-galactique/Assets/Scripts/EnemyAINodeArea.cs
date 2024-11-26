@@ -73,7 +73,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void MoveTowardsTarget()
     {
-        Debug.Log("im walking here");
+        // Debug.Log("im walking here");
         // Move towards the target node
         transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, moveSpeed * Time.deltaTime);
         Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
@@ -87,7 +87,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void MoveTowardsPlayer()
     {
-        Debug.Log("swiggity coming for your booty");
+        // Debug.Log("swiggity coming for your booty");
         Player.transform.position = new Vector3(Player.transform.position.x, transform.position.y, Player.transform.position.z);
         transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, moveSpeed * Time.deltaTime);
     }
@@ -114,7 +114,6 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void RotateTowardsTarget()
     {
-
         // Calculate the direction to the target
         Vector3 direction = (currentTarget.position - transform.position).normalized;
 
