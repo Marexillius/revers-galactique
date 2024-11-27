@@ -46,7 +46,7 @@ private IEnumerator StunSequence()
         // Stun sequence here
         
 container.GetComponent<EnemyAI>().SetActive(false);
-        gameObject.GetComponent<Animator>().Play("ennemi_die_anim");
+        gameObject.GetComponent<Animator>().Play("ennemi_stun_anim");
 
         yield return new WaitForSeconds(3);
 
