@@ -19,7 +19,7 @@ public class enemyHealth : MonoBehaviour
             healthPoints--;
         } else if (other.tag == "racket")
         {
-            // Stun sequence here
+StartCoroutine(StunSequence());
         }
 
         if (healthPoints <= 0)
@@ -37,6 +37,20 @@ public class enemyHealth : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         Destroy(container);
+
+        yield break;
+    }
+
+private IEnumerator StunSequence()
+    {
+        // Stun sequence here
+        
+container.GetComponent<EnemyAI>().SetActive(false);
+        gameObject.GetComponent<Animator>().Play("ennemi_die_anim");
+
+        yield return new WaitForSeconds(3);
+
+container.GetComponent<EnemyAI>().SetActive(true);
 
         yield break;
     }
