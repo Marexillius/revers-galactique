@@ -17,7 +17,7 @@ public class enemyHealth : MonoBehaviour
         } else if (other.tag == "ballPlayer")
         {
             healthPoints--;
-        } else if (other.tag == "racket")
+        } else if (other.tag == "racket" || other.tag == "throwable")
         {
 StartCoroutine(StunSequence());
         }
