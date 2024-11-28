@@ -54,6 +54,8 @@ MonoBehaviour:
   Player: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
   Enemy: {fileID: 6033234966121569019}
   NodeArea: {fileID: 0}
+  ennemyBall: {fileID: 2126542546391557320, guid: b179ca87de9d5ff42ad18e0d43e27463, type: 3}
+  ennemyBallSpawnPosition: {fileID: 5450331227945211552}
 --- !u!65 &256492605947016261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -135,6 +137,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7466129153820012743}
   m_SourcePrefab: {fileID: 100100000, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
+--- !u!1 &5450331227945211552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8155644381813729782, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
+  m_PrefabInstance: {fileID: 4219270340914610006}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5888733534359718413 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7725124673976890715, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
