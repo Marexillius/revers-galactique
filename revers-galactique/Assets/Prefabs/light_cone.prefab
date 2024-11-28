@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 5566831031392435582}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.012996674, y: -4.4440002, z: -0.08150482}
+  m_LocalPosition: {x: 0.012996674, y: -5.46, z: -0.08150482}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41,11 +41,11 @@ Light:
   m_GameObject: {fileID: 5566831031392435582}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 3
-  m_Range: 10
+  m_Intensity: 2
+  m_Range: 20
   m_SpotAngle: 136
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -104,7 +104,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 133984, guid: dd3b1cbd7aec7b247ab3a959176c0d6a, type: 3}
       propertyPath: m_Name
-      value: SM_Prop_Light_01 Variant
+      value: light_cone
       objectReference: {fileID: 0}
     - target: {fileID: 452092, guid: dd3b1cbd7aec7b247ab3a959176c0d6a, type: 3}
       propertyPath: m_LocalPosition.x
