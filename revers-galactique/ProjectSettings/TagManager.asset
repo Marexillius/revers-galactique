@@ -15,6 +15,7 @@ TagManager:
   - AccessCard
   - iSeeYou
   - Enemy
+  - throwable
   layers:
   - Default
   - TransparentFX

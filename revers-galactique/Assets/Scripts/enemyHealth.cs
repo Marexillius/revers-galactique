@@ -19,7 +19,7 @@ public class enemyHealth : MonoBehaviour
             healthPoints--;
         } else if (other.tag == "racket" || other.tag == "throwable")
         {
-StartCoroutine(StunSequence());
+            StartCoroutine(StunSequence());
         }
 
         if (healthPoints <= 0)
@@ -31,7 +31,7 @@ StartCoroutine(StunSequence());
     private IEnumerator DeathSequence()
     {
         // Death sequence here
-        Destroy(container.GetComponent<EnemyAI>());
+        Destroy(container.GetComponent<EnemyAINodeArea>());
         gameObject.GetComponent<Animator>().Play("ennemi_die_anim");
 
         yield return new WaitForSeconds(2);
@@ -44,13 +44,13 @@ StartCoroutine(StunSequence());
 private IEnumerator StunSequence()
     {
         // Stun sequence here
-        
-container.GetComponent<EnemyAI>().SetActive(false);
+
+        container.GetComponent<EnemyAINodeArea>().enabled = false;
         gameObject.GetComponent<Animator>().Play("ennemi_stun_anim");
 
         yield return new WaitForSeconds(3);
 
-container.GetComponent<EnemyAI>().SetActive(true);
+        container.GetComponent<EnemyAINodeArea>().enabled = true;
 
         yield break;
     }

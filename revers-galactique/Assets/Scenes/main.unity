@@ -36360,7 +36360,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1256765781748173786, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.82
+      value: -10.45
       objectReference: {fileID: 0}
     - target: {fileID: 1256765781748173786, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -36402,13 +36402,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: chairGrab
       objectReference: {fileID: 0}
-    - target: {fileID: 7645451703310265082, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7645451703310265082, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
+    - target: {fileID: 1890172077710184800, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
+      propertyPath: m_TagString
+      value: throwable
       objectReference: {fileID: 0}
     - target: {fileID: 7645451703310265082, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
       propertyPath: m_CollisionDetection
@@ -36417,14 +36413,6 @@ PrefabInstance:
     - target: {fileID: 9169375157944092741, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
       propertyPath: m_Convex
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9169375157944092741, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9169375157944092741, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
-      propertyPath: m_ProvidesContacts
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53971,25 +53959,9 @@ PrefabInstance:
       propertyPath: NodeArea
       value: 
       objectReference: {fileID: 564718971}
-    - target: {fileID: 2820272549073899814, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4216906418725237705, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_Name
       value: EnemyContainer
-      objectReference: {fileID: 0}
-    - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54030,10 +54002,6 @@ PrefabInstance:
     - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -96198,6 +96166,10 @@ PrefabInstance:
     - target: {fileID: 1890172077710184800, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
       propertyPath: m_Name
       value: chair 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169375157944092741, guid: 7ae6232f893f544439e142f97093e2a2, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
