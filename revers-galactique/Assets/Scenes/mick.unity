@@ -5889,19 +5889,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -9052,6 +9052,7 @@ GameObject:
   - component: {fileID: 183822710}
   - component: {fileID: 183822709}
   - component: {fileID: 183822708}
+  - component: {fileID: 183822711}
   m_Layer: 0
   m_Name: Directional Light (1)
   m_TagString: Untagged
@@ -9075,7 +9076,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183822707}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
@@ -9145,6 +9146,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 126.078995, y: -118.261, z: -87.849}
+--- !u!45 &183822711
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183822707}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!1001 &187310206
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10230,19 +10240,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -22015,19 +22025,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -22752,19 +22762,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -22970,19 +22980,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -31689,19 +31699,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -37392,11 +37402,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Enabled
@@ -37404,11 +37414,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -42575,19 +42585,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -44456,19 +44466,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -57693,19 +57703,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -58640,11 +58650,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Enabled
@@ -58652,11 +58662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -61739,11 +61749,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Enabled
@@ -61755,11 +61765,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -62441,19 +62451,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -82111,19 +82121,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -85546,6 +85556,10 @@ PrefabInstance:
     - target: {fileID: 1925701407281146021, guid: 400e3acd06fc7a74ab7ed6e9ea3bb395, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853901328741617123, guid: 400e3acd06fc7a74ab7ed6e9ea3bb395, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -95251,19 +95265,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
@@ -95345,19 +95359,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Type
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Intensity
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_SpotAngle
-      value: 134.8
+      value: 146.2
       objectReference: {fileID: 0}
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_CookieSize
