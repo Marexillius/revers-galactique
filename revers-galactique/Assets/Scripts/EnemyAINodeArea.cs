@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -16,34 +17,25 @@ public class EnemyAINodeArea : MonoBehaviour
     public GameObject Player;
     public GameObject Enemy;
 
-    //public static EnemyAINodeArea Instance { get; private set; }
     private List<Transform> nodes;
 
     public GameObject NodeArea;
+
+    private bool enemyAttackOnCooldown = false;
+    public GameObject ennemyBall;
+    public GameObject ennemyBallSpawnPosition;
 
 
     private void Awake()
     {
         Debug.Log(NodeArea.transform.childCount);
 
-        /*if (Instance == null)
-        {
-            Instance = this;*/
             nodes = new List<Transform>();
-            /*foreach (GameObject node in GameObject.FindGameObjectsWithTag("Node"))
-            {
-                nodes.Add(node.transform);
-            }*/
 
             for(int i = 0; i < NodeArea.transform.childCount; i++)
             {
                 nodes.Add(NodeArea.transform.GetChild(i));
             }
-       /* }
-        else
-        {
-            Destroy(gameObject);
-        }*/
     }
 
     private void Start()
@@ -58,7 +50,10 @@ public class EnemyAINodeArea : MonoBehaviour
             RotateTowardsPlayer();
             if (Vector3.Distance(transform.position, Player.transform.position) < 10f)
             {
-                Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
+                if (enemyAttackOnCooldown == false)
+                {
+                    StartCoroutine(attackAnimation());
+                }
             } else
             {
                 Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
@@ -134,5 +129,23 @@ public class EnemyAINodeArea : MonoBehaviour
     {
         if (nodes.Count == 0) return null;
         return nodes[UnityEngine.Random.Range(0, nodes.Count)];
+    }
+
+    private IEnumerator attackAnimation()
+    {
+        Debug.Log("start attacking");
+        enemyAttackOnCooldown = true;
+        Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
+        yield return new WaitForSeconds(0.5f);
+        ennemyBall = Instantiate(ennemyBall, ennemyBallSpawnPosition.transform.position, Quaternion.identity);
+        ennemyBall.SetActive(true);
+        ennemyBall.GetComponent<Rigidbody>().AddForce(transform.forward * 5f, ForceMode.Impulse);
+        yield return new WaitForSeconds(1);
+
+        Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
+
+        yield return new WaitForSeconds(2);
+        enemyAttackOnCooldown = false;
+        yield break;
     }
 }
