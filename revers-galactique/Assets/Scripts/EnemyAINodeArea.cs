@@ -54,7 +54,7 @@ public class EnemyAINodeArea : MonoBehaviour
             {
                 if (enemyAttackOnCooldown == false)
                 {
-                    StartCoroutine(attackAnimation());
+                    //StartCoroutine(attackAnimation());
                 }
             } else
             {
