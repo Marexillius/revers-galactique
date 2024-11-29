@@ -2091,6 +2091,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (8)
@@ -4415,6 +4419,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (13)
@@ -10127,6 +10135,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (4)
@@ -13264,6 +13276,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (12)
@@ -21770,6 +21786,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights
@@ -34285,6 +34305,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (5)
@@ -35625,6 +35649,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (2)
@@ -44131,6 +44159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (14)
@@ -50114,6 +50146,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (3)
@@ -51200,6 +51236,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (11)
@@ -53544,6 +53584,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (10)
@@ -61874,6 +61918,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
     - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Range
       value: 30
       objectReference: {fileID: 0}
@@ -69543,6 +69591,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (1)
@@ -83336,6 +83388,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (9)
@@ -89563,6 +89619,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: lights (6)
@@ -100106,6 +100166,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1104830478}
     m_Modifications:
+    - target: {fileID: 2093471407562297620, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
+      propertyPath: m_Type
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3239447658675422607, guid: bc9ecd39241da864bb574492ddee4a98, type: 3}
       propertyPath: m_Name
       value: SM_Env_Ceiling_Light_01
