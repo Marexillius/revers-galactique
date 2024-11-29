@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerHealth : MonoBehaviour
 {
@@ -25,11 +26,13 @@ public class playerHealth : MonoBehaviour
         {
             // Death sequence here
             Debug.Log("DEATH");
+            deathScreen();
         }
     }
 
     public void deathScreen()
     {
         Debug.Log("test");
+        SceneManager.LoadScene("main");
     }
 }

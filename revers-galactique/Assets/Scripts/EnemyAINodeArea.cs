@@ -11,6 +11,7 @@ public class EnemyAINodeArea : MonoBehaviour
     public float moveSpeed = 3f;
     public float rotationSpeed = 5f; // Adjust for smoother or faster turning
     public float nodeReachThreshold = 1f;
+    public bool enemyisResting = false;
 
     private Transform currentTarget;
     public bool lineOfSight;
@@ -18,7 +19,6 @@ public class EnemyAINodeArea : MonoBehaviour
     public GameObject Enemy;
 
     private List<Transform> nodes;
-
     public GameObject NodeArea;
 
     private bool enemyAttackOnCooldown = false;
@@ -60,9 +60,17 @@ public class EnemyAINodeArea : MonoBehaviour
                 MoveTowardsPlayer();
             }
         } else if (lineOfSight == false)
-        {
-            RotateTowardsTarget();
-            MoveTowardsTarget();
+        { 
+            if(enemyisResting == false)
+            {
+                RotateTowardsTarget();
+                MoveTowardsTarget();
+            }
+            else
+            {
+                Enemy.GetComponent<Animator>().Play("ennemi_idle_anim");
+            }
+            
         }
     }
 
@@ -77,6 +85,8 @@ public class EnemyAINodeArea : MonoBehaviour
         if (Vector3.Distance(transform.position, currentTarget.position) < nodeReachThreshold)
         {
             SetRandomTargetNode();
+            enemyisResting = true;
+            StartCoroutine(idleAnimation());
         }
     }
 
@@ -146,6 +156,13 @@ public class EnemyAINodeArea : MonoBehaviour
 
         yield return new WaitForSeconds(2);
         enemyAttackOnCooldown = false;
+        yield break;
+    }
+
+    private IEnumerator idleAnimation()
+    {
+        yield return new WaitForSeconds(3);
+        enemyisResting = false;
         yield break;
     }
 }

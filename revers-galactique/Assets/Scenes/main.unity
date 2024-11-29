@@ -14609,6 +14609,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 410322, guid: 03cd299fb60ba904bb3838aca52f6b97, type: 3}
   m_PrefabInstance: {fileID: 399319736}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &399623539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7493323247012758132, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+  m_PrefabInstance: {fileID: 907880089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &399623543
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399623539}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5597002278806442958, guid: 3faa71474668d81449fd383bf5fb25ab, type: 3}
 --- !u!1 &400905187 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 176114, guid: 7798bb23b7a935a45afbb430ce9debe1, type: 3}
@@ -18939,6 +18966,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bcefad6a12a75a54b8ac5e8d4f868e52, type: 3}
+--- !u!1 &503628171 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1848770764696803238, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+  m_PrefabInstance: {fileID: 907880089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &503628175
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503628171}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6329158148709259305, guid: a12da8ebb5d75494db7d9626fe1eb70c, type: 3}
 --- !u!1 &503871994 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 117120, guid: cb9768457f589b842baee5f952a061f3, type: 3}
@@ -39227,6 +39281,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1129207343}
+    - targetCorrespondingSourceObject: {fileID: 7493323247012758132, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 399623543}
+    - targetCorrespondingSourceObject: {fileID: 1848770764696803238, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 503628175}
   m_SourcePrefab: {fileID: 100100000, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
 --- !u!4 &907880090 stripped
 Transform:
@@ -55410,11 +55470,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 54c45fb1b6164d64e8a021545e9ca5f5, type: 3}
---- !u!1 &1261888217 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5450331227945211552, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-  m_PrefabInstance: {fileID: 1280941601}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1262091565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56181,14 +56236,6 @@ PrefabInstance:
       propertyPath: NodeArea
       value: 
       objectReference: {fileID: 564718971}
-    - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: ennemyBall
-      value: 
-      objectReference: {fileID: 2126542546391557320, guid: b179ca87de9d5ff42ad18e0d43e27463, type: 3}
-    - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
-      propertyPath: ennemyBallSpawnPosition
-      value: 
-      objectReference: {fileID: 1261888217}
     - target: {fileID: 4216906418725237705, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_Name
       value: EnemyContainer
@@ -56232,6 +56279,10 @@ PrefabInstance:
     - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6033234966121569019, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

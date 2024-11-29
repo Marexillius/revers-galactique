@@ -37,10 +37,9 @@ public class BallBounceCounter : MonoBehaviour
                 gameObject.GetComponent<Rigidbody>().AddForce(launchDirection.normalized * launchForce, ForceMode.Impulse);
             }
 
-            if (BounceCounter == 10)
+            if (BounceCounter >= 10)
             {   
-                /*gameObject.transform.localScale = Vector3.one;
-                Destroy(gameObject);*/
+                /*Destroy(gameObject);*/
             }
         }
         else if(gameObject.tag == "enemyAttack")
@@ -51,10 +50,9 @@ public class BallBounceCounter : MonoBehaviour
                 //Debug.Log(BounceCounter);
             }
 
-            if (BounceCounter == 10)
+            if (BounceCounter >= 10)
             {
-                gameObject.transform.localScale = Vector3.one;
-                Destroy(gameObject, 5f);
+                Destroy(gameObject, 3f);
             }
 
         }

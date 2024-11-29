@@ -50,6 +50,7 @@ MonoBehaviour:
   moveSpeed: 3
   rotationSpeed: 5
   nodeReachThreshold: 1
+  enemyisResting: 0
   lineOfSight: 0
   Player: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
   Enemy: {fileID: 6033234966121569019}
@@ -88,6 +89,10 @@ PrefabInstance:
     - target: {fileID: 7581677177719629229, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
       propertyPath: m_Name
       value: ennemi
+      objectReference: {fileID: 0}
+    - target: {fileID: 7581677177719629229, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7725124673976890715, guid: 58555a07bec58c1419c5f0fbe26c0a45, type: 3}
       propertyPath: m_LocalPosition.x
