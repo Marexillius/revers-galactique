@@ -25,9 +25,6 @@ public class EnemyAINodeArea : MonoBehaviour
     public GameObject ennemyBall;
     public GameObject ennemyBallSpawnPosition;
 
-    private Vector3 aimingAt;
-
-
     private void Awake()
     {
         Debug.Log(NodeArea.transform.childCount);
@@ -54,7 +51,7 @@ public class EnemyAINodeArea : MonoBehaviour
             {
                 if (enemyAttackOnCooldown == false)
                 {
-                    //StartCoroutine(attackAnimation());
+                    StartCoroutine(attackAnimation());
                 }
             } else
             {
@@ -143,18 +140,16 @@ public class EnemyAINodeArea : MonoBehaviour
         return nodes[UnityEngine.Random.Range(0, nodes.Count)];
     }
      
-    /*private IEnumerator attackAnimation()
+    private IEnumerator attackAnimation()
     {
-        Debug.Log("start attacking");
+        //Debug.Log("start attacking");
         enemyAttackOnCooldown = true;
-        aimingAt = currentTarget.transform.position;  //NEED TO VERIFY THAT THIS WORKS
-        yield return new WaitForSeconds(1);
         Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
         ennemyBall = Instantiate(ennemyBall, ennemyBallSpawnPosition.transform.position, Quaternion.identity);
+        
+        yield return new WaitForSeconds(0.3f);
         ennemyBall.SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-
-        ennemyBall.GetComponent<Rigidbody>().AddForce(aimingAt * 5f, ForceMode.Impulse);
+        ennemyBall.GetComponent<Rigidbody>().AddForce(transform.forward * 10f, ForceMode.Impulse);
 
         yield return new WaitForSeconds(1);
 
@@ -163,7 +158,7 @@ public class EnemyAINodeArea : MonoBehaviour
         yield return new WaitForSeconds(2);
         enemyAttackOnCooldown = false;
         yield break;
-    }*/
+    }
 
     private IEnumerator idleAnimation()
     {

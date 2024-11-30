@@ -10,11 +10,7 @@ public class enemyHealth : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log(healthPoints);
-        if (other.tag == "enemyAttack")
-        {
-            healthPoints--;
-            other.gameObject.SetActive(false);
-        } else if (other.tag == "ballPlayer")
+        if (other.tag == "ballPlayer")
         {
             healthPoints--;
         } else if (other.tag == "racket" || other.tag == "throwable")
