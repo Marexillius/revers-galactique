@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class playerHealth : MonoBehaviour
 {
-    int healthPoints = 5;
+    public int healthPoints = 5;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,6 +33,6 @@ public class playerHealth : MonoBehaviour
     public void deathScreen()
     {
         Debug.Log("test");
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("Level_Start");
     }
 }

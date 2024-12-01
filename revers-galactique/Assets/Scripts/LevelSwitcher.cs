@@ -16,19 +16,19 @@ public class LevelSwitcher : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" && whereIam.name == "main")
+        if (other.tag == "Player" && whereIam.name == "Level_Station")
         {
             SceneManager.LoadScene("alex"); 
         } 
         else if(other.tag == "CityDoor")
         {
-            //load last level
+            SceneManager.LoadScene("Level_City");
         }
     }
 
     public void startGame()
     {
-        SceneManager.LoadScene("main"); 
+        SceneManager.LoadScene("Level_Station"); 
     }
 
     public void quitGame()
