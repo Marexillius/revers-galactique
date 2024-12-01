@@ -30,7 +30,7 @@ public class playerHealth : MonoBehaviour
     public void deathScreen()
     {
         Debug.Log("DEATH");
-        SceneManager.LoadScene("Level_Station");
+        SceneManager.LoadScene("Level_Death");
     }
 
     private IEnumerator healthCounter()

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_City.unity
     guid: a628468aee7127743bce3a02089ddfeb
   - enabled: 1
+    path: Assets/Scenes/LeveL_Death.unity
+    guid: 084186a62a725b8498aba8849cc3dcd5
+  - enabled: 0
     path: Assets/Scenes/alex.unity
     guid: b1c68a2c193ca8844a19dafa519ca242
   m_configObjects:

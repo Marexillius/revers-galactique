@@ -7,9 +7,6 @@ public class DoorAnimationController : MonoBehaviour
 
     private static bool HasCard = false;
 
-    private UnityEngine.SceneManagement.Scene whereIam;
-
-
     public void openSampleDoors()
     {
         gameObject.GetComponent<Animator>().Play("simpleAssets_door_opens");
@@ -49,12 +46,10 @@ public class DoorAnimationController : MonoBehaviour
         if (other.tag == "Player" && Door)
         {
             Door.GetComponent<Animator>().Play("simpleAssets_door_close");
-            Debug.Log("should close");
         } 
-        else if (other.tag == "Player" && gameObject.tag == "Door_Large" && whereIam.name == "Level_Station")
+        else if (other.tag == "Player" && gameObject.tag == "Door_Large" )
         {
             gameObject.GetComponent<Animator>().Play("largeDoor_Opens");
-            Debug.Log("should open");
         } else if (other.tag == "Player" && gameObject.tag == "AccessCard")
         {
             Debug.Log("got card");
@@ -65,10 +60,9 @@ public class DoorAnimationController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player" && gameObject.tag == "Door_Large" && whereIam.name == "Level_Station")
+        if (other.tag == "Player" && gameObject.tag == "Door_Large")
         {
             gameObject.GetComponent<Animator>().Play("largeDoor_Closes");
-            Debug.Log("should close");
         }
     }
 }

@@ -18,7 +18,7 @@ public class LevelSwitcher : MonoBehaviour
     {
         if (other.tag == "Player" && whereIam.name == "Level_Station")
         {
-            SceneManager.LoadScene("alex"); 
+            SceneManager.LoadScene("Level_Outside"); 
         } 
         else if(other.tag == "CityDoor")
         {
