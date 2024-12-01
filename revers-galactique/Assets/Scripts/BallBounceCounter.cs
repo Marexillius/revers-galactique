@@ -5,12 +5,15 @@ using UnityEngine;
 public class BallBounceCounter : MonoBehaviour
 {
     private int BounceCounter = 0;
-    public GameObject racket;
+    //public GameObject racket;
+
+    public GameObject playerBall;
+    public GameObject playerBallSpawnLocation;
 
     public Vector3 launchDirection = Vector3.zero; // angle that'll get redefined when it hit the racket
     public float launchForce = 10f; // force
 
-    private void Awake()
+    /*private void Awake()
     {
         StartCoroutine(checkRotation());
     }
@@ -21,11 +24,20 @@ public class BallBounceCounter : MonoBehaviour
         yield return new WaitForSeconds(1);
         StartCoroutine(checkRotation());
         yield break;
+    }*/
+
+    void Update()
+    {
+        if (Input.GetKeyDown("q"))
+        {
+            Debug.Log("spawning balls");
+            playerBall = Instantiate(playerBall, playerBallSpawnLocation.transform.position, Quaternion.identity);
+            playerBall.SetActive(true);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        
 
         if (gameObject.tag == "ballPlayer")
         {
