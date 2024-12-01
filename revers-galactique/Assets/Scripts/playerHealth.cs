@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,33 +7,40 @@ using UnityEngine.SceneManagement;
 public class playerHealth : MonoBehaviour
 {
     public int healthPoints = 5;
+    public GameObject[] healthPointsUI;
+    private bool hasIframes = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "enemyAttack")
-        {
-            healthPoints--;
-            /*other.transform.localScale = Vector3.one;
-            Destroy(other);*/
-            Debug.Log(healthPoints);
-        }
-        else if (other.tag == "Enemy")
-        {
-            healthPoints--;
-            Debug.Log(healthPoints);
-        }
-
         if (healthPoints == 0)
         {
-            // Death sequence here
-            Debug.Log("DEATH");
             deathScreen();
         }
+
+        if (hasIframes == false)
+        {
+            if (other.tag == "Enemy" || other.tag == "enemyAttack")
+            {
+                StartCoroutine(healthCounter());
+            }            
+        }
+
     }
 
     public void deathScreen()
     {
-        Debug.Log("test");
-        SceneManager.LoadScene("Level_Start");
+        Debug.Log("DEATH");
+        SceneManager.LoadScene("Level_Station");
+    }
+
+    private IEnumerator healthCounter()
+    {
+        hasIframes = true;
+        healthPoints--;
+        Debug.Log(healthPoints);
+        healthPointsUI[healthPoints].SetActive(false);
+        yield return new WaitForSeconds(3);
+        hasIframes = false;
+        yield break;
     }
 }
