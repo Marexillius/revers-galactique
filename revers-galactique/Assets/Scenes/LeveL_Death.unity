@@ -393,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 1302571763}
     - target: {fileID: 1159253423781787001, guid: 866721ac84192b84fb860a9f494f659c, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: startGame
+      value: mainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 1159253423781787001, guid: 866721ac84192b84fb860a9f494f659c, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

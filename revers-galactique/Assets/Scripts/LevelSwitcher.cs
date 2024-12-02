@@ -31,6 +31,11 @@ public class LevelSwitcher : MonoBehaviour
         SceneManager.LoadScene("Level_Station"); 
     }
 
+    public void mainMenu()
+    {
+        SceneManager.LoadScene("Level_Start");
+    }
+
     public void quitGame()
     {
         Application.Quit();
