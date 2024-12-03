@@ -809,11 +809,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 117120, guid: cb9768457f589b842baee5f952a061f3, type: 3}
   m_PrefabInstance: {fileID: 592910715}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &11376249 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6791342132217203305, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-  m_PrefabInstance: {fileID: 1927342657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &11924692 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 152544, guid: 19f1f7b65c83bf34cb6d0f210b1b3cae, type: 3}
@@ -5414,11 +5409,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 443158, guid: cb9768457f589b842baee5f952a061f3, type: 3}
   m_PrefabInstance: {fileID: 144553255}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &149428288 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2176081558476614351, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-  m_PrefabInstance: {fileID: 1927342657}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &150676423
 PrefabInstance:
@@ -34882,11 +34872,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bcefad6a12a75a54b8ac5e8d4f868e52, type: 3}
---- !u!1 &814064508 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2760521389059637398, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-  m_PrefabInstance: {fileID: 1927342657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &815472290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52456,7 +52441,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 139986, guid: 17c11d87285401c4e87a19b845ed2405, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1934025659}
   m_SourcePrefab: {fileID: 100100000, guid: 17c11d87285401c4e87a19b845ed2405, type: 3}
 --- !u!4 &1204601920 stripped
 Transform:
@@ -75647,11 +75635,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408944, guid: c482cc540742f9a4d86c1a66b700d09c, type: 3}
   m_PrefabInstance: {fileID: 1686573832}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1687832954 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 751854715253945005, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-  m_PrefabInstance: {fileID: 1927342657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1689356282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76752,11 +76735,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: fc79bf0d6c92d314dabd8bfd4c9dc533, type: 3}
---- !u!1 &1707590719 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7311240617908664251, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-  m_PrefabInstance: {fileID: 1927342657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1708601192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87766,34 +87744,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: healthPointsUI.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: healthPointsUI.Array.data[0]
-      value: 
-      objectReference: {fileID: 1687832954}
-    - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: healthPointsUI.Array.data[1]
-      value: 
-      objectReference: {fileID: 149428288}
-    - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: healthPointsUI.Array.data[2]
-      value: 
-      objectReference: {fileID: 814064508}
-    - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: healthPointsUI.Array.data[3]
-      value: 
-      objectReference: {fileID: 1707590719}
-    - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: healthPointsUI.Array.data[4]
-      value: 
-      objectReference: {fileID: 11376249}
-    - target: {fileID: 3881829880556530265, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_AllowAnchorControl
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 669
@@ -87826,21 +87776,9 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 6646277300279364753, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_AllowAnchorControl
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7241639297696820930, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: far clip plane
-      value: 200
-      objectReference: {fileID: 0}
     - target: {fileID: 7415877955034797311, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8168819858169891541, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: ballSpawnButton.m_Action.m_Name
-      value: Ball Spawn Button
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87882,14 +87820,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8168819858169891541, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2241663138177228492, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2050514612}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
 --- !u!1 &1928191660 stripped
 GameObject:
@@ -88539,6 +88473,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bcefad6a12a75a54b8ac5e8d4f868e52, type: 3}
+--- !u!1 &1934025656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139986, guid: 17c11d87285401c4e87a19b845ed2405, type: 3}
+  m_PrefabInstance: {fileID: 1204601919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1934025659
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934025656}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: dbde90816c502584fab83854573f7631, type: 3}
 --- !u!1001 &1934692549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95108,34 +95069,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2241663138177228492, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
   m_PrefabInstance: {fileID: 1927342657}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2050514612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2050514604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99361518d004c094fba66d1098c260b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ballSpawnButton:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Ball Spawn Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 6e3bcbf2-6ad7-4e81-b086-a00792b78043
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  playerBall: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
-  playerBallSpawnLocation: {fileID: 222072805}
-  launchDirection: {x: 0, y: 0, z: 0}
-  launchForce: 10
 --- !u!1001 &2050757893
 PrefabInstance:
   m_ObjectHideFlags: 0
