@@ -87762,6 +87762,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2041928349447547690, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: healthPointsUI.Array.size
       value: 5
@@ -87798,6 +87802,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 598
       objectReference: {fileID: 0}
+    - target: {fileID: 4566635240475211332, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.321
+      objectReference: {fileID: 0}
     - target: {fileID: 4588150422816924979, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_fontSize
       value: 69.15
@@ -87825,6 +87833,14 @@ PrefabInstance:
     - target: {fileID: 7241639297696820930, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: far clip plane
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415877955034797311, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8168819858169891541, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButton.m_Action.m_Name
+      value: Ball Spawn Button
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87866,10 +87882,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8168819858169891541, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2241663138177228492, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2050514612}
   m_SourcePrefab: {fileID: 100100000, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
 --- !u!1 &1928191660 stripped
 GameObject:
@@ -95088,6 +95108,34 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2241663138177228492, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
   m_PrefabInstance: {fileID: 1927342657}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2050514612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050514604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99361518d004c094fba66d1098c260b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballSpawnButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Ball Spawn Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6e3bcbf2-6ad7-4e81-b086-a00792b78043
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  playerBall: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
+  playerBallSpawnLocation: {fileID: 222072805}
+  launchDirection: {x: 0, y: 0, z: 0}
+  launchForce: 10
 --- !u!1001 &2050757893
 PrefabInstance:
   m_ObjectHideFlags: 0
