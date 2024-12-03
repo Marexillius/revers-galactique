@@ -52,7 +52,7 @@ MonoBehaviour:
   nodeReachThreshold: 1
   enemyisResting: 0
   lineOfSight: 0
-  Player: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+  Player: {fileID: 0}
   Enemy: {fileID: 6033234966121569019}
   NodeArea: {fileID: 0}
   ennemyBall: {fileID: 2126542546391557320, guid: b179ca87de9d5ff42ad18e0d43e27463, type: 3}
