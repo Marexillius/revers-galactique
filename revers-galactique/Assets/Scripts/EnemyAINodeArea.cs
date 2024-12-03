@@ -40,6 +40,7 @@ public class EnemyAINodeArea : MonoBehaviour
     private void Start()
     {
         SetRandomTargetNode();
+        StartCoroutine(walkCycle());
     }
 
     private void Update()
@@ -165,5 +166,17 @@ public class EnemyAINodeArea : MonoBehaviour
         yield return new WaitForSeconds(3);
         enemyisResting = false;
         yield break;
+    }
+
+    private IEnumerator walkCycle()
+    {
+        if (enemyisResting == false)
+        {
+            moveSpeed = 0f;
+            yield return new WaitForSeconds(0.25f);
+            moveSpeed = 4f;
+            yield return new WaitForSeconds(0.75f);
+            yield break;
+        }
     }
 }
