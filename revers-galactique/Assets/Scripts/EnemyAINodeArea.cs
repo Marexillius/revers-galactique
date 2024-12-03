@@ -40,12 +40,12 @@ public class EnemyAINodeArea : MonoBehaviour
     private void Start()
     {
         SetRandomTargetNode();
-        StartCoroutine(walkCycle());
     }
 
     private void Update()
     {
         if (currentTarget == null) return;
+        
         if (lineOfSight == true){
             RotateTowardsPlayer();
             if (Vector3.Distance(transform.position, Player.transform.position) < 10f)
@@ -56,6 +56,7 @@ public class EnemyAINodeArea : MonoBehaviour
                 }
             } else
             {
+                // StartCoroutine(walkCycle());
                 Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
                 MoveTowardsPlayer();
             }
@@ -153,7 +154,6 @@ public class EnemyAINodeArea : MonoBehaviour
         ennemyBall.GetComponent<Rigidbody>().AddForce(transform.forward * 10f, ForceMode.Impulse);
 
         yield return new WaitForSeconds(1);
-
         Enemy.GetComponent<Animator>().Play("ennemi_move_anim");
 
         yield return new WaitForSeconds(2);
@@ -170,13 +170,10 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private IEnumerator walkCycle()
     {
-        if (enemyisResting == false)
-        {
-            moveSpeed = 0f;
-            yield return new WaitForSeconds(0.25f);
-            moveSpeed = 4f;
-            yield return new WaitForSeconds(0.75f);
-            yield break;
-        }
+        moveSpeed = 5f;
+        yield return new WaitForSeconds(0.25f);
+        moveSpeed = 0f;
+        yield return new WaitForSeconds(0.75f);
+        yield break;
     }
 }
