@@ -30,7 +30,7 @@ public class BallBounceCounter : MonoBehaviour
         yield break;
     }*/
 
-    void Update()
+    private void Update()
     {
         if (ballSpawnButton.action.WasPressedThisFrame())
         {

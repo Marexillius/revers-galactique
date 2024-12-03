@@ -1028,6 +1028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_02
       objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.08861316
@@ -2426,6 +2430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Plants_01
       objectReference: {fileID: 0}
+    - target: {fileID: 102064, guid: 609ed19c59c2b7741a7215cfcf7a6788, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 431180, guid: 609ed19c59c2b7741a7215cfcf7a6788, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.229923
@@ -2992,6 +3000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Rocket_01
       objectReference: {fileID: 0}
+    - target: {fileID: 122702, guid: 9de593bcee397f04381ed0c2a965231c, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 446220, guid: 9de593bcee397f04381ed0c2a965231c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.071917
@@ -3397,6 +3409,10 @@ PrefabInstance:
     - target: {fileID: 188422, guid: 6b75d13215d049646badbe58967969ef, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Lockers_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 188422, guid: 6b75d13215d049646badbe58967969ef, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 483602, guid: 6b75d13215d049646badbe58967969ef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7555,6 +7571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Extinguisher_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 112336, guid: 2b3d2776895a6c54d811aa38d5287e4e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 448060, guid: 2b3d2776895a6c54d811aa38d5287e4e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.899921
@@ -7966,6 +7986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_02
       objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.23101997
@@ -8319,6 +8343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.26495725
@@ -8553,6 +8581,10 @@ PrefabInstance:
     - target: {fileID: 198614, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Server_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 198614, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 437224, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9065,6 +9097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Stairs_01
       objectReference: {fileID: 0}
+    - target: {fileID: 168360, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 449376, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8049202
@@ -9198,6 +9234,10 @@ PrefabInstance:
     - target: {fileID: 104638, guid: e35627f940ee9044e8cc38850c6116f6, type: 3}
       propertyPath: m_Name
       value: SM_Item_Book_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 104638, guid: e35627f940ee9044e8cc38850c6116f6, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 439746, guid: e35627f940ee9044e8cc38850c6116f6, type: 3}
       propertyPath: m_LocalScale.x
@@ -10034,6 +10074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_SwivelChair_04
       objectReference: {fileID: 0}
+    - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.064922
@@ -10255,6 +10299,10 @@ PrefabInstance:
     - target: {fileID: 180912, guid: 1dfa64bea22e5f94d852fc5eb5b2b90e, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Panel_Vintage_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 180912, guid: 1dfa64bea22e5f94d852fc5eb5b2b90e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 471228, guid: 1dfa64bea22e5f94d852fc5eb5b2b90e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10777,6 +10825,10 @@ PrefabInstance:
     - target: {fileID: 169428, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Seat_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 169428, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 423040, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12330,6 +12382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Book_05
       objectReference: {fileID: 0}
+    - target: {fileID: 146848, guid: 61a7364288ab3234fb38c9fba5f0728f, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 448926, guid: 61a7364288ab3234fb38c9fba5f0728f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.295925
@@ -12714,6 +12770,10 @@ PrefabInstance:
     - target: {fileID: 184516, guid: 9aa4d2c131e2e8e43bb56f1ca77d85db, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Lockers_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 184516, guid: 9aa4d2c131e2e8e43bb56f1ca77d85db, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 429414, guid: 9aa4d2c131e2e8e43bb56f1ca77d85db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14656,6 +14716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 158042, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 461566, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.81942344
@@ -15228,6 +15292,10 @@ PrefabInstance:
     - target: {fileID: 158128, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Trolley_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 158128, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 425542, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16198,6 +16266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ServerRack_01
       objectReference: {fileID: 0}
+    - target: {fileID: 120388, guid: de9be3d45d151314ba5e30e7c032f111, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 452118, guid: de9be3d45d151314ba5e30e7c032f111, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.015079498
@@ -16342,6 +16414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Seat_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 169428, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 423040, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.63779
@@ -16403,6 +16479,10 @@ PrefabInstance:
     - target: {fileID: 198614, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Server_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 198614, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 437224, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17605,6 +17685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_01
       objectReference: {fileID: 0}
+    - target: {fileID: 158042, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 461566, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.645839
@@ -17678,6 +17762,10 @@ PrefabInstance:
     - target: {fileID: 150326, guid: 52ce646e2619df34f97ac716668b5165, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Bed_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 150326, guid: 52ce646e2619df34f97ac716668b5165, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 52ce646e2619df34f97ac716668b5165, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18476,6 +18564,10 @@ PrefabInstance:
     - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
@@ -19565,6 +19657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.08861316
@@ -19929,6 +20025,10 @@ PrefabInstance:
     - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
@@ -20498,6 +20598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Lockers_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 160012, guid: 09449ce640d82124c8c1b73210b80bb3, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 481104, guid: 09449ce640d82124c8c1b73210b80bb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.691
@@ -20584,6 +20688,10 @@ PrefabInstance:
     - target: {fileID: 161870, guid: 57baf1671d8d41c45a98ad384e8ea1a5, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Monitor_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 161870, guid: 57baf1671d8d41c45a98ad384e8ea1a5, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 446354, guid: 57baf1671d8d41c45a98ad384e8ea1a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21443,6 +21551,10 @@ PrefabInstance:
     - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cables_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 474844, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22655,6 +22767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Table_01
       objectReference: {fileID: 0}
+    - target: {fileID: 172276, guid: cfe4210266b68f545972f3428f02b4cf, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 401754, guid: cfe4210266b68f545972f3428f02b4cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.59705734
@@ -23283,6 +23399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Health_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 141204, guid: 9bb134b40cf241d40948221ac4442cad, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 472728, guid: 9bb134b40cf241d40948221ac4442cad, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.74367005
@@ -23529,6 +23649,10 @@ PrefabInstance:
     - target: {fileID: 169428, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Seat_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 169428, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 423040, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24431,6 +24555,10 @@ PrefabInstance:
     - target: {fileID: 113128, guid: 9844dc521d67a584ca9bd2214138bc35, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Server_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 113128, guid: 9844dc521d67a584ca9bd2214138bc35, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 407958, guid: 9844dc521d67a584ca9bd2214138bc35, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26071,6 +26199,10 @@ PrefabInstance:
     - target: {fileID: 179468, guid: 9043ca7d4fff3464793b84a512c113c4, type: 3}
       propertyPath: m_Name
       value: SM_Item_Hammer_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 179468, guid: 9043ca7d4fff3464793b84a512c113c4, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 467950, guid: 9043ca7d4fff3464793b84a512c113c4, type: 3}
       propertyPath: m_LocalScale.x
@@ -28001,6 +28133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_TestTube_01
       objectReference: {fileID: 0}
+    - target: {fileID: 129720, guid: fbb8eb4848f36e342ac01595c40d3f60, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 460624, guid: fbb8eb4848f36e342ac01595c40d3f60, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.294918
@@ -29545,6 +29681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.26495725
@@ -30847,6 +30987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Desk_Lab_02
       objectReference: {fileID: 0}
+    - target: {fileID: 142780, guid: 11bc704ed6e28f64db128269ccd15f2a, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 491480, guid: 11bc704ed6e28f64db128269ccd15f2a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.924923
@@ -30943,6 +31087,10 @@ PrefabInstance:
     - target: {fileID: 135648, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Panel_Vintage_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 135648, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 492184, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31759,6 +31907,10 @@ PrefabInstance:
     - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_SwivelChair_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33006,6 +33158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_3DPrinter_01
       objectReference: {fileID: 0}
+    - target: {fileID: 129564, guid: 4480e4b1c74ef254a9c7fcfe3664e3e8, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 472654, guid: 4480e4b1c74ef254a9c7fcfe3664e3e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.823925
@@ -34105,6 +34261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Panel_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 153630, guid: 2f22414f1de25f0478d3c01cc37d5e54, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 427362, guid: 2f22414f1de25f0478d3c01cc37d5e54, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.644924
@@ -34455,6 +34615,10 @@ PrefabInstance:
     - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cables_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 474844, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36582,6 +36746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Wrench_01
       objectReference: {fileID: 0}
+    - target: {fileID: 168364, guid: 20429b23d43c5e94e9b28da1c109237c, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 441712, guid: 20429b23d43c5e94e9b28da1c109237c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.43466493
@@ -36680,6 +36848,10 @@ PrefabInstance:
     - target: {fileID: 188422, guid: 6b75d13215d049646badbe58967969ef, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Lockers_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 188422, guid: 6b75d13215d049646badbe58967969ef, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 483602, guid: 6b75d13215d049646badbe58967969ef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37449,6 +37621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Sign_01
       objectReference: {fileID: 0}
+    - target: {fileID: 197710, guid: 7baf83a9eba166842947ddd0fbb987fe, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 445902, guid: 7baf83a9eba166842947ddd0fbb987fe, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3800999
@@ -37960,6 +38136,10 @@ PrefabInstance:
     - target: {fileID: 140514, guid: 02129b329d5966d418bcddf2c8b28df9, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Scales_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 140514, guid: 02129b329d5966d418bcddf2c8b28df9, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 499304, guid: 02129b329d5966d418bcddf2c8b28df9, type: 3}
       propertyPath: m_LocalScale.x
@@ -39386,6 +39566,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1848770764696803238, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422471046693057331, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493323247012758132, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39518,6 +39710,10 @@ PrefabInstance:
     - target: {fileID: 168360, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Stairs_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 168360, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 449376, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41068,6 +41264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ControlDesk_Vintage_02
       objectReference: {fileID: 0}
+    - target: {fileID: 123016, guid: 7bd826c1905c5044bb4eb1190831affa, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 403498, guid: 7bd826c1905c5044bb4eb1190831affa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.604923
@@ -41196,6 +41396,10 @@ PrefabInstance:
     - target: {fileID: 141204, guid: 9bb134b40cf241d40948221ac4442cad, type: 3}
       propertyPath: m_Name
       value: SM_Item_Health_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 141204, guid: 9bb134b40cf241d40948221ac4442cad, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 472728, guid: 9bb134b40cf241d40948221ac4442cad, type: 3}
       propertyPath: m_LocalScale.x
@@ -42349,6 +42553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Server_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 113128, guid: 9844dc521d67a584ca9bd2214138bc35, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 407958, guid: 9844dc521d67a584ca9bd2214138bc35, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.0450783
@@ -43291,6 +43499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Cart_01
       objectReference: {fileID: 0}
+    - target: {fileID: 194472, guid: aaf4ec371d4b3ba4a8f0cca9dfffe612, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 401360, guid: aaf4ec371d4b3ba4a8f0cca9dfffe612, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.9350777
@@ -43863,6 +44075,10 @@ PrefabInstance:
     - target: {fileID: 112336, guid: 2b3d2776895a6c54d811aa38d5287e4e, type: 3}
       propertyPath: m_Name
       value: SM_Item_Extinguisher_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 112336, guid: 2b3d2776895a6c54d811aa38d5287e4e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 448060, guid: 2b3d2776895a6c54d811aa38d5287e4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45225,6 +45441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Hatch_01
       objectReference: {fileID: 0}
+    - target: {fileID: 149612, guid: 26f0637e76d23d44db37f6cc2836739d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 423480, guid: 26f0637e76d23d44db37f6cc2836739d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 73.389
@@ -45531,6 +45751,10 @@ PrefabInstance:
     - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cables_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 474844, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49394,6 +49618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Lockers_01
       objectReference: {fileID: 0}
+    - target: {fileID: 160012, guid: 09449ce640d82124c8c1b73210b80bb3, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 481104, guid: 09449ce640d82124c8c1b73210b80bb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.691
@@ -49846,6 +50074,10 @@ PrefabInstance:
     - target: {fileID: 158128, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Trolley_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 158128, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 425542, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52167,6 +52399,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Seat_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 169428, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 423040, guid: 57e86203db475ac4ab1b63e6f8edbf6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.63779
@@ -52421,6 +52657,10 @@ PrefabInstance:
     - target: {fileID: 139986, guid: 17c11d87285401c4e87a19b845ed2405, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Tape_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 139986, guid: 17c11d87285401c4e87a19b845ed2405, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 450294, guid: 17c11d87285401c4e87a19b845ed2405, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54636,6 +54876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Trolley_01
       objectReference: {fileID: 0}
+    - target: {fileID: 158128, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 425542, guid: f2ef50add4e0a5e40827066268c10b40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.457985
@@ -55328,6 +55572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ControlDesk_Vintage_04
       objectReference: {fileID: 0}
+    - target: {fileID: 157256, guid: 3c1c37022defe9b4f81e8fc330435925, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 444756, guid: 3c1c37022defe9b4f81e8fc330435925, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.864925
@@ -55505,6 +55753,10 @@ PrefabInstance:
     - target: {fileID: 182156, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Desk_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182156, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55742,6 +55994,10 @@ PrefabInstance:
     - target: {fileID: 153630, guid: 2f22414f1de25f0478d3c01cc37d5e54, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Panel_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 153630, guid: 2f22414f1de25f0478d3c01cc37d5e54, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 427362, guid: 2f22414f1de25f0478d3c01cc37d5e54, type: 3}
       propertyPath: m_LocalPosition.x
@@ -58579,6 +58835,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1848770764696803238, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422471046693057331, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493323247012758132, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60592,6 +60860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Lockers_02
       objectReference: {fileID: 0}
+    - target: {fileID: 172832, guid: 96fd23fe0487bde4bb225251a50db209, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 433234, guid: 96fd23fe0487bde4bb225251a50db209, type: 3}
       propertyPath: m_LocalPosition.x
       value: 72.691
@@ -60960,6 +61232,10 @@ PrefabInstance:
     - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
@@ -62870,6 +63146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Panel_Vintage_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 135648, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 492184, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.513077
@@ -62941,6 +63221,10 @@ PrefabInstance:
     - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Pipe_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
@@ -65118,6 +65402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Desk_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 182156, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.924923
@@ -66815,6 +67103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Tether_01
       objectReference: {fileID: 0}
+    - target: {fileID: 198450, guid: d513a70b897ebbf41ac97d30fbc9eb97, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 448220, guid: d513a70b897ebbf41ac97d30fbc9eb97, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.38127995
@@ -67616,6 +67908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_02
       objectReference: {fileID: 0}
+    - target: {fileID: 111510, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 456136, guid: fb9a621664bb2074c8d2d4841ab29409, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.320221
@@ -68004,6 +68300,10 @@ PrefabInstance:
     - target: {fileID: 123016, guid: 7bd826c1905c5044bb4eb1190831affa, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ControlDesk_Vintage_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 123016, guid: 7bd826c1905c5044bb4eb1190831affa, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 403498, guid: 7bd826c1905c5044bb4eb1190831affa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -68878,6 +69178,10 @@ PrefabInstance:
     - target: {fileID: 184516, guid: 9aa4d2c131e2e8e43bb56f1ca77d85db, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Lockers_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 184516, guid: 9aa4d2c131e2e8e43bb56f1ca77d85db, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 429414, guid: 9aa4d2c131e2e8e43bb56f1ca77d85db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73921,6 +74225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_StepLadder_01
       objectReference: {fileID: 0}
+    - target: {fileID: 167606, guid: aed44e03f8afe7f448a1ae83ab197350, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 429822, guid: aed44e03f8afe7f448a1ae83ab197350, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.6755447
@@ -74189,6 +74497,10 @@ PrefabInstance:
     - target: {fileID: 158042, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Pipe_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 158042, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 461566, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
       propertyPath: m_LocalScale.x
@@ -76695,6 +77007,10 @@ PrefabInstance:
     - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_SwivelChair_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79746,6 +80062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Panel_Vintage_05
       objectReference: {fileID: 0}
+    - target: {fileID: 118654, guid: 9c4fcb1291fce33419b76f7724f408f6, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 433770, guid: 9c4fcb1291fce33419b76f7724f408f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.382923
@@ -80298,6 +80618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Stairs_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 168360, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 449376, guid: dae89be50c9c3ab4bb0cc73baa41d050, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8049202
@@ -80385,6 +80709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Lockers_04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 188422, guid: 6b75d13215d049646badbe58967969ef, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 483602, guid: 6b75d13215d049646badbe58967969ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.494923
@@ -80454,6 +80782,10 @@ PrefabInstance:
     - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_SwivelChair_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -83543,6 +83875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Flightstick_01
       objectReference: {fileID: 0}
+    - target: {fileID: 101076, guid: 146c9ed59aef78f41b53820b34ada6b8, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 418780, guid: 146c9ed59aef78f41b53820b34ada6b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.694813
@@ -84800,6 +85136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Container_04
       objectReference: {fileID: 0}
+    - target: {fileID: 145092, guid: 179668f4b2af9994b8131d36b3160741, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 440344, guid: 179668f4b2af9994b8131d36b3160741, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.344921
@@ -85208,6 +85548,10 @@ PrefabInstance:
     - target: {fileID: 198614, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Server_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 198614, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 437224, guid: 70a9c8fcd9b4f714184533e140d99302, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87164,6 +87508,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Container_04
       objectReference: {fileID: 0}
+    - target: {fileID: 145092, guid: 179668f4b2af9994b8131d36b3160741, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 440344, guid: 179668f4b2af9994b8131d36b3160741, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9234314
@@ -87780,6 +88128,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305923359648529553, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_CameraYOffset
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3040295074088274278, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Height
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479504432945822005, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091458409484728139, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -87806,7 +88170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4608171324020449865, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Name
@@ -87815,6 +88179,18 @@ PrefabInstance:
     - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154751682734551711, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154751682734551711, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154751682734551711, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.38
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87931,6 +88307,10 @@ PrefabInstance:
     - target: {fileID: 156364, guid: 915166e9f1a45cb4c88c1954e7f3e29e, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Bed_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 156364, guid: 915166e9f1a45cb4c88c1954e7f3e29e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 440788, guid: 915166e9f1a45cb4c88c1954e7f3e29e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89071,6 +89451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Panel_Vintage_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 135648, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 492184, guid: bdc370d7c2037d44383ead2d5dadb886, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0370789
@@ -89922,6 +90306,10 @@ PrefabInstance:
     - target: {fileID: 182156, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Desk_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 182156, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 424236, guid: b51c4300aecb41b4484a5de424561e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -91352,6 +91740,10 @@ PrefabInstance:
     - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Cables_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 177042, guid: 455de5f98675f964298a3720f7af6101, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 474844, guid: 455de5f98675f964298a3720f7af6101, type: 3}
       propertyPath: m_LocalPosition.x
@@ -93123,6 +93515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_SwivelChair_04 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 107498, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 437206, guid: e9516b1acb2ebc946b1c58d6fbe358d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.034924
@@ -93981,6 +94377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pipe_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 158042, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 461566, guid: 23b95e44fb2e062459689053b16b7e5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.62779737
@@ -94228,6 +94628,10 @@ PrefabInstance:
     - target: {fileID: 105460, guid: 76f61fb80f948f141a06ac256a1808d0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Container_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 105460, guid: 76f61fb80f948f141a06ac256a1808d0, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 459992, guid: 76f61fb80f948f141a06ac256a1808d0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -96678,6 +97082,10 @@ PrefabInstance:
     - target: {fileID: 152544, guid: 19f1f7b65c83bf34cb6d0f210b1b3cae, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Container_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 152544, guid: 19f1f7b65c83bf34cb6d0f210b1b3cae, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 420580, guid: 19f1f7b65c83bf34cb6d0f210b1b3cae, type: 3}
       propertyPath: m_LocalPosition.x
