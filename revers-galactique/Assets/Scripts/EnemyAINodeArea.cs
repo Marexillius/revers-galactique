@@ -108,7 +108,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "wall")
+        if (other.tag == "wall" || other.tag == "Door_Large")
         {
             lineOfSight = false;
             SetRandomTargetNode();
