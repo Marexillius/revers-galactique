@@ -87780,33 +87780,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2041928349447547690, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_Enabled
-      value: 0
+    - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 669
+      value: -611
       objectReference: {fileID: 0}
     - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 598
-      objectReference: {fileID: 0}
-    - target: {fileID: 4566635240475211332, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.321
-      objectReference: {fileID: 0}
-    - target: {fileID: 4588150422816924979, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_fontSize
-      value: 69.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4588150422816924979, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_margin.z
-      value: 104.80835
-      objectReference: {fileID: 0}
-    - target: {fileID: 4588150422816924979, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 1
+      value: -122
       objectReference: {fileID: 0}
     - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Name
@@ -87815,10 +87811,6 @@ PrefabInstance:
     - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_TagString
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7415877955034797311, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
