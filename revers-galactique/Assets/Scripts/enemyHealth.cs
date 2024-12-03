@@ -6,6 +6,12 @@ public class enemyHealth : MonoBehaviour
 {
     public int healthPoints = 2;
     public GameObject container;
+    private EnemyAINodeArea isDetected;
+    
+    private void Start()
+    {
+        isDetected = container.GetComponent<EnemyAINodeArea>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,6 +22,9 @@ public class enemyHealth : MonoBehaviour
         } else if (other.tag == "racket" || other.tag == "throwable")
         {
             StartCoroutine(StunSequence());
+        } else if (other.tag == "wall")
+        {
+            isDetected.lineOfSight = false;
         }
 
         if (healthPoints <= 0)

@@ -129,7 +129,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     }
 
-    private void SetRandomTargetNode()
+    public void SetRandomTargetNode()
     {
         currentTarget = GetRandomNode();
     }
