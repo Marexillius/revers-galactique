@@ -87780,9 +87780,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305923359648529553, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_CameraYOffset
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3040295074088274278, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Height
-      value: 10
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479504432945822005, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4091458409484728139, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4246248955070495914, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_AnchorMax.x
