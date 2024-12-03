@@ -16,6 +16,7 @@ TagManager:
   - iSeeYou
   - Enemy
   - throwable
+  - break
   layers:
   - Default
   - TransparentFX
