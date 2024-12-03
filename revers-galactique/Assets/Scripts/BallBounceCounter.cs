@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BallBounceCounter : MonoBehaviour
 {
+
+    [SerializeField] private InputActionProperty ballSpawnButton;
+
     private int BounceCounter = 0;
     //public GameObject racket;
 
@@ -28,11 +32,9 @@ public class BallBounceCounter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("q"))
+        if (ballSpawnButton.action.WasPressedThisFrame())
         {
-            Debug.Log("spawning balls");
-            playerBall = Instantiate(playerBall, playerBallSpawnLocation.transform.position, Quaternion.identity);
-            playerBall.SetActive(true);
+            spawnBall();
         }
     }
 
@@ -86,5 +88,12 @@ public class BallBounceCounter : MonoBehaviour
 
         }
 
+    }
+
+    public void spawnBall()
+    {
+        Debug.Log("spawning balls");
+        playerBall = Instantiate(playerBall, playerBallSpawnLocation.transform.position, Quaternion.identity);
+        playerBall.SetActive(true);
     }
 }
