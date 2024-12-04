@@ -1084,6 +1084,10 @@ PrefabInstance:
       propertyPath: m_LocomotionProvider
       value: 
       objectReference: {fileID: 2136225728381952720}
+    - target: {fileID: 6261522475046451465, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6620585413433924436, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
