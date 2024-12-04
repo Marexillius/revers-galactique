@@ -24,7 +24,7 @@ public class EnemyAINodeArea : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log(NodeArea.transform.childCount);
+        //Debug.Log(NodeArea.transform.childCount);
 
             nodes = new List<Transform>();
 
