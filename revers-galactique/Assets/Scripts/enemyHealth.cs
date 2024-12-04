@@ -7,6 +7,8 @@ public class enemyHealth : MonoBehaviour
     public int healthPoints = 2;
     public GameObject container;
     private EnemyAINodeArea isDetected;
+
+    private bool hasIframes = false;
     
     private void Start()
     {
@@ -16,9 +18,9 @@ public class enemyHealth : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log(healthPoints);
-        if (other.tag == "ballPlayer")
+        if (other.tag == "ballPlayer"  && hasIframes == false)
         {
-            healthPoints--;
+            StartCoroutine(DamageSequence());
         } else if (other.tag == "racket" || other.tag == "throwable")
         {
             StartCoroutine(StunSequence());
@@ -46,7 +48,7 @@ public class enemyHealth : MonoBehaviour
         yield break;
     }
 
-private IEnumerator StunSequence()
+    private IEnumerator StunSequence()
     {
         // Stun sequence here
 
@@ -59,4 +61,14 @@ private IEnumerator StunSequence()
 
         yield break;
     }
+
+    private IEnumerator DamageSequence()
+    {
+        healthPoints--;
+        hasIframes = true;
+        yield return new WaitForSeconds(2);
+        hasIframes = false;
+        yield break;
+    }
+
 }
