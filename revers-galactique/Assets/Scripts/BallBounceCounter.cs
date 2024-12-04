@@ -133,26 +133,12 @@ public class BallBounceCounter : MonoBehaviour
     [SerializeField] private InputActionProperty ballSpawnButton;
 
     private int BounceCounter = 0;
-    //public GameObject racket;
 
     public GameObject playerBall;
     public GameObject playerBallSpawnLocation;
 
     public Vector3 launchDirection = Vector3.zero; // angle that'll get redefined when it hit the racket
     public float launchForce = 10f; // force
-
-    /*private void Awake()
-    {
-        StartCoroutine(checkRotation());
-    }
-
-    private IEnumerator checkRotation()
-    {
-        Debug.Log("rotation X : " + racket.transform.localRotation.eulerAngles.x + " rotation Y : " + racket.transform.localRotation.eulerAngles.y + " rotation Z : " + racket.transform.localRotation.eulerAngles.z);
-        yield return new WaitForSeconds(1);
-        StartCoroutine(checkRotation());
-        yield break;
-    }*/
 
     private void Update()
     {
@@ -216,8 +202,8 @@ public class BallBounceCounter : MonoBehaviour
 
     public void teleportBall()
     {
-        Debug.Log("spawning balls");
+        
         playerBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        playerBall.transform.position = playerBallSpawnLocation.transform.position;
+        playerBall.transform.position = new Vector3(playerBallSpawnLocation.transform.position.x, playerBallSpawnLocation.transform.position.y + 1, playerBallSpawnLocation.transform.position.z);
     }
 }
