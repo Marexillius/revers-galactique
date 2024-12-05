@@ -11,8 +11,13 @@ public class enemiesSpawner : MonoBehaviour
     {
         if (other.tag == "Player" && gameObject.tag == "AccessCard")
         {
-            secondWave.SetActive(true);
+            moreEnemies();
+            
         }
     }
 
+    public void moreEnemies()
+    {
+        secondWave.SetActive(true);
+    }
 }

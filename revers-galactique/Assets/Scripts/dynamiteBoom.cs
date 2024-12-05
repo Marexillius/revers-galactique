@@ -11,6 +11,7 @@ public class dynamiteBoom : MonoBehaviour
         if (collision.gameObject.tag == "break")
         {
             collision.gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
         else
         {

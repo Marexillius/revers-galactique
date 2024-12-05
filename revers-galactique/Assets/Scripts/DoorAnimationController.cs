@@ -65,4 +65,9 @@ public class DoorAnimationController : MonoBehaviour
             gameObject.GetComponent<Animator>().Play("largeDoor_Closes");
         }
     }
+
+    public void unlockCityDoor()
+    {
+        gameObject.GetComponent<BoxCollider>().enabled = true;
+    }
 }
