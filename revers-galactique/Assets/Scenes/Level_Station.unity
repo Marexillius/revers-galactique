@@ -4474,7 +4474,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &110358787
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41026,13 +41026,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8524143862624833443, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9006457885469762465, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cdcce6626c9cc1048abd3455cb77abfb, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7898864952882348538, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -58350,6 +58351,10 @@ PrefabInstance:
     - target: {fileID: 4216906418725237705, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_Name
       value: EnemyContainer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4216906418725237705, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4848546948103770885, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: m_LocalPosition.x
