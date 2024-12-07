@@ -5538,8 +5538,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "INSTRUCTION:\n\n- Utilisez la raquette pour frapper les balles sur les
     extraterrestres pour les \xE9liminer\r.\n\n- Appuyez sur X (sur la manette gauche)
-    pour faire appara\xEEtre une balle.\r\n\n- Trouvez un moyen de progresser votre
-    assaut."
+    pour faire appara\xEEtre une balle (3s de rechargement).\r\n\n- Trouvez un moyen
+    de progresser votre assaut."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
