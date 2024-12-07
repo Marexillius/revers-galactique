@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 8618565224937436606}
   - component: {fileID: 3873304642398774044}
   - component: {fileID: 5727629549381737673}
-  - component: {fileID: 6398391788256461539}
   m_Layer: 0
   m_Name: Enemyball
   m_TagString: enemyAttack
@@ -30,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126542546391557320}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.67, y: 2.323, z: 6.23}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 1
@@ -287,17 +286,3 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.009999994
   m_Center: {x: -4.656613e-10, y: 0, z: 0}
---- !u!114 &6398391788256461539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126542546391557320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99361518d004c094fba66d1098c260b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  launchDirection: {x: 0, y: 0, z: 0}
-  launchForce: 10

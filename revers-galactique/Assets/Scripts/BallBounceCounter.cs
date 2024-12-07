@@ -136,6 +136,7 @@ public class BallBounceCounter : MonoBehaviour
 
     public GameObject playerBall;
     public GameObject playerBallSpawnLocation;
+    private bool spawnCooldownOver = true;
 
     public Vector3 launchDirection = Vector3.zero; // angle that'll get redefined when it hit the racket
     public float launchForce = 10f; // force
@@ -200,10 +201,21 @@ public class BallBounceCounter : MonoBehaviour
 
     }
 
+    private IEnumerator ballSpawnCooldown()
+    {
+        spawnCooldownOver = false;
+        yield return new WaitForSeconds(3f);
+        spawnCooldownOver = true;
+        yield break;
+    }
+
     public void teleportBall()
     {
-        
-        playerBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        playerBall.transform.position = new Vector3(playerBallSpawnLocation.transform.position.x, playerBallSpawnLocation.transform.position.y + 1, playerBallSpawnLocation.transform.position.z);
+        if (spawnCooldownOver == true)
+        {
+            playerBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            playerBall.transform.position = new Vector3(playerBallSpawnLocation.transform.position.x, playerBallSpawnLocation.transform.position.y + 1, playerBallSpawnLocation.transform.position.z);
+            StartCoroutine(ballSpawnCooldown());
+        }
     }
 }
