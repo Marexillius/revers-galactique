@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 49933482}
   - component: {fileID: 49933481}
   - component: {fileID: 49933480}
+  - component: {fileID: 49933485}
   m_Layer: 5
   m_Name: Canvas instruction
   m_TagString: Untagged
@@ -245,6 +246,27 @@ RectTransform:
   m_AnchoredPosition: {x: 11.065, y: 3.01}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &49933485
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49933479}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: baccbedd037965e44b1ce3c1cc493fb8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &70401153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5515,8 +5537,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "INSTRUCTION:\n\n- Utilisez la raquette pour frapper les balles sur les
-    ennemis pour les \xE9liminer\r.\n\n- Utilisez les chaises de la caf\xE9t\xE9ria
-    pour \xE9tourdir les ennemis.\r\n\n- Trouvez un moyen de sortir de la station."
+    extraterrestres pour les \xE9liminer\r.\n\n- Appuyez sur X (sur la manette gauche)
+    pour faire appara\xEEtre une balle.\r\n\n- Trouvez un moyen de progresser votre
+    assaut."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6271,27 +6294,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.25
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.39
+      value: 4.61
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.680941
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7323383
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6299,7 +6322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -94.166
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
