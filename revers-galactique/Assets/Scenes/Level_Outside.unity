@@ -14704,6 +14704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door_animated
       objectReference: {fileID: 0}
+    - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1436665340146445817, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.2374
@@ -23960,6 +23964,7 @@ GameObject:
   - component: {fileID: 1113308185}
   - component: {fileID: 1113308184}
   - component: {fileID: 1113308186}
+  - component: {fileID: 1113308187}
   m_Layer: 0
   m_Name: toCity
   m_TagString: Untagged
@@ -24016,6 +24021,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Door: {fileID: 0}
+--- !u!114 &1113308187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113308183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d5048fad354e741bbe68d7f1b8d40b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1114213785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
@@ -32698,7 +32715,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -32756,13 +32773,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588891443}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 13.05, z: 0}
+  m_LocalRotation: {x: 0.080716014, y: -0.45944163, z: 0.20468353, w: 0.8605248}
+  m_LocalPosition: {x: 52, y: 13.05, z: -198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 19.087, y: -53.298, z: 17.114}
 --- !u!1001 &1591004047
 PrefabInstance:
   m_ObjectHideFlags: 0

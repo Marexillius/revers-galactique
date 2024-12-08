@@ -19,7 +19,7 @@ public class LevelSwitcher : MonoBehaviour
         {
             SceneManager.LoadScene("Level_Outside"); 
         } 
-        else if(other.name == "toCity")
+        else if(gameObject.name == "toCity")
         {
             SceneManager.LoadScene("Level_City");
         }
