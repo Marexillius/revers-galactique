@@ -18558,8 +18558,40 @@ PrefabInstance:
       value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: playerBall
+      value: 
+      objectReference: {fileID: 1919314963}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: playerBallSpawnLocation
+      value: 
+      objectReference: {fileID: 1948416336}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Reference
+      value: 
+      objectReference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Reference
+      value: 
+      objectReference: {fileID: 2813451266951382697, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Action.m_Id
+      value: c5f435df-3a26-45bd-a2cd-750dc407d35a
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Action.m_Id
+      value: 8ddb3772-bafb-48f5-8373-8f019c81d721
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: ballSpawnButtonLeft.m_Action.m_Name
       value: Ball Spawn Button Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_UseReference
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: ballSpawnButtonRight.m_Action.m_Name
@@ -18588,6 +18620,38 @@ PrefabInstance:
     - target: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_Name
       value: Joueur
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: playerBall
+      value: 
+      objectReference: {fileID: 1919314963}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: playerBallSpawnLocation
+      value: 
+      objectReference: {fileID: 1948416336}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Reference
+      value: 
+      objectReference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Reference
+      value: 
+      objectReference: {fileID: 2813451266951382697, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Action.m_Name
+      value: Ball Spawn Button Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Action.m_Name
+      value: Ball Spawn Button Right
       objectReference: {fileID: 0}
     - target: {fileID: 6154751682734551711, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
