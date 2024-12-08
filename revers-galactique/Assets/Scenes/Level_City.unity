@@ -9536,7 +9536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1436665340146445817, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_LocalScale.x
@@ -9780,7 +9780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1436665340146445817, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_LocalScale.x
@@ -21355,6 +21355,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 33.792007
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5dbbb0d7fa3d3204096903bd52820592, type: 2}
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (12)
@@ -29393,6 +29397,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5dbbb0d7fa3d3204096903bd52820592, type: 2}
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (14)
