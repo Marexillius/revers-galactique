@@ -9069,6 +9069,30 @@ PrefabInstance:
       propertyPath: playerBallSpawnLocation
       value: 
       objectReference: {fileID: 415742778}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Reference
+      value: 
+      objectReference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Reference
+      value: 
+      objectReference: {fileID: 2813451266951382697, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Action.m_Name
+      value: Ball Spawn Button Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Action.m_Name
+      value: Ball Spawn Button Right
+      objectReference: {fileID: 0}
     - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: healthPointsUI.Array.data[0]
       value: 
@@ -9105,6 +9129,30 @@ PrefabInstance:
       propertyPath: playerBallSpawnLocation
       value: 
       objectReference: {fileID: 415742778}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Reference
+      value: 
+      objectReference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Reference
+      value: 
+      objectReference: {fileID: 2813451266951382697, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Action.m_Name
+      value: Ball Spawn Button Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Action.m_Name
+      value: Ball Spawn Button Right
+      objectReference: {fileID: 0}
     - target: {fileID: 6154751682734551711, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.33
