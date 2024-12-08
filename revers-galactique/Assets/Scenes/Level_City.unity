@@ -3742,7 +3742,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -4901,7 +4901,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -5053,7 +5053,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -7749,7 +7749,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -11948,7 +11948,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -12256,7 +12256,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -12330,7 +12330,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -13303,7 +13303,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -14170,7 +14170,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -14494,7 +14494,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -14729,7 +14729,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -17302,7 +17302,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -17750,7 +17750,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -18740,6 +18740,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4747765240063692800, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
   m_PrefabInstance: {fileID: 1367953580}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1367953582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2241663138177228492, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+  m_PrefabInstance: {fileID: 1367953580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1373333984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18907,7 +18912,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -27607,7 +27612,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
@@ -28827,7 +28832,7 @@ PrefabInstance:
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: Player
       value: 
-      objectReference: {fileID: 1367953581}
+      objectReference: {fileID: 1367953582}
     - target: {fileID: 2099269816369167411, guid: ea50be58d0da69047a605d12d096d1e1, type: 3}
       propertyPath: NodeArea
       value: 
