@@ -92282,6 +92282,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 38285814035876960, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000055995846
+      objectReference: {fileID: 0}
+    - target: {fileID: 38285814035876960, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -808.0802
+      objectReference: {fileID: 0}
+    - target: {fileID: 38285814035876960, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -730.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588001462837805634, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000070227834
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588001462837805634, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -643.3102
+      objectReference: {fileID: 0}
+    - target: {fileID: 1588001462837805634, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -730
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885893199960833927, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000060181843
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885893199960833927, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -753.16016
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885893199960833927, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -730.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 3002695940061362720, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3
@@ -92318,6 +92354,18 @@ PrefabInstance:
       propertyPath: ballSpawnButtonRight.m_Action.m_Name
       value: Ball Spawn Button Right
       objectReference: {fileID: 0}
+    - target: {fileID: 3222996221658595056, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00006353024
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222996221658595056, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -698.2302
+      objectReference: {fileID: 0}
+    - target: {fileID: 3222996221658595056, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -730.0001
+      objectReference: {fileID: 0}
     - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: healthPointsUI.Array.data[0]
       value: 
@@ -92336,7 +92384,19 @@ PrefabInstance:
       objectReference: {fileID: 407038167}
     - target: {fileID: 4181214657878271755, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487327050225452695, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487327050225452695, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -863
+      objectReference: {fileID: 0}
+    - target: {fileID: 4487327050225452695, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -730
       objectReference: {fileID: 0}
     - target: {fileID: 4608171324020449865, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_IsActive
@@ -92377,6 +92437,18 @@ PrefabInstance:
     - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: ballSpawnButtonRight.m_Action.m_Name
       value: Ball Spawn Button Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631222038931152635, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00004343784
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631222038931152635, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -915.1803
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631222038931152635, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -720.114
       objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
