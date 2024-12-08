@@ -6,6 +6,7 @@ public class LastStand : MonoBehaviour
 {
     public GameObject waves1;
     public GameObject waves2;
+    public GameObject door;
 
     private void Update()
     {
@@ -17,6 +18,10 @@ public class LastStand : MonoBehaviour
         if (waves1.transform.childCount <= 0)
         {
             waves2.SetActive(true);
+        }
+        else if (waves2.transform.childCount <= 0)
+        {
+            door.GetComponent<BoxCollider>().enabled = true;
         }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemyHealth : MonoBehaviour
 {
-    public int healthPoints = 2;
+    public int healthPoints = 1;
     public GameObject container;
     private EnemyAINodeArea isDetected;
 
@@ -13,6 +13,14 @@ public class enemyHealth : MonoBehaviour
     private void Start()
     {
         isDetected = container.GetComponent<EnemyAINodeArea>();
+    }
+
+    private void Update()
+    {
+        if (healthPoints <= 0)
+        {
+            StartCoroutine(DeathSequence());
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -27,11 +35,6 @@ public class enemyHealth : MonoBehaviour
         } else if (other.tag == "wall")
         {
             isDetected.lineOfSight = false;
-        }
-
-        if (healthPoints <= 0)
-        {
-            StartCoroutine(DeathSequence());
         }
     }
 
