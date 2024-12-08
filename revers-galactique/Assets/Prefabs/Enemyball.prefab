@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8618565224937436606}
   - component: {fileID: 3873304642398774044}
   - component: {fileID: 5727629549381737673}
+  - component: {fileID: 2478148514395884985}
   m_Layer: 0
   m_Name: Enemyball
   m_TagString: enemyAttack
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 2126542546391557320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.67, y: 2.323, z: 6.23}
+  m_LocalPosition: {x: 678.54144, y: 10.76605, z: 36.161983}
   m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -286,3 +287,43 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.009999994
   m_Center: {x: -4.656613e-10, y: 0, z: 0}
+--- !u!114 &2478148514395884985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126542546391557320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8a6c93197aa05438d41262f29e49a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballSpawnButtonRight:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Ball Spawn Button Right
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ed7960ee-8b51-4f2d-80a3-bc9e3ae7478e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  ballSpawnButtonLeft:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Ball Spawn Button Left
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: cd8f66b7-cf44-452c-aa36-8a2d66fb2b15
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  playerBall: {fileID: 0}
+  playerBallSpawnLocation: {fileID: 0}
+  launchDirection: {x: 0, y: 0, z: 0}
+  launchForce: 10

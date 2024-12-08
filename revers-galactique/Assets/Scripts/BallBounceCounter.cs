@@ -195,7 +195,7 @@ public class BallBounceCounter : MonoBehaviour
 
             if (BounceCounter >= 10)
             {
-                Destroy(gameObject, 3f);
+                //Destroy(gameObject, 5f);
             }
 
         }

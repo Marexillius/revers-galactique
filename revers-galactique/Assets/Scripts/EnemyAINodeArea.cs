@@ -144,8 +144,11 @@ public class EnemyAINodeArea : MonoBehaviour
         //Debug.Log("start attacking");
         enemyAttackOnCooldown = true;
         Enemy.GetComponent<Animator>().Play("ennemi_shoot_anim");
-        ennemyBall = Instantiate(ennemyBall, ennemyBallSpawnPosition.transform.position, Quaternion.identity);
-        
+        //ennemyBall = Instantiate(ennemyBall, ennemyBallSpawnPosition.transform.position, Quaternion.identity);
+
+        ennemyBall.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        ennemyBall.transform.position = new Vector3(ennemyBallSpawnPosition.transform.position.x, ennemyBallSpawnPosition.transform.position.y, ennemyBallSpawnPosition.transform.position.z);
+
         yield return new WaitForSeconds(0.3f);
         ennemyBall.SetActive(true);
         ennemyBall.GetComponent<Rigidbody>().AddForce(transform.forward * 10f, ForceMode.Impulse);
