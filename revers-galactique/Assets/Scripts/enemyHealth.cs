@@ -66,6 +66,7 @@ public class enemyHealth : MonoBehaviour
     {
         healthPoints--;
         hasIframes = true;
+        isDetected.lineOfSight = true;
         yield return new WaitForSeconds(2);
         hasIframes = false;
         yield break;
