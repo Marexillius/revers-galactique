@@ -15,13 +15,13 @@ public class LastStand : MonoBehaviour
 
     private void checkEnemies()
     {
-        if (waves1.transform.childCount <= 0)
-        {
-            waves2.SetActive(true);
-        }
-        else if (waves2.transform.childCount <= 0)
+        if (waves2.transform.childCount <= 0)
         {
             door.GetComponent<BoxCollider>().enabled = true;
+        }
+        else if (waves1.transform.childCount <= 0)
+        {
+            waves2.SetActive(true);
         }
     }
 }
