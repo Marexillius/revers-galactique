@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -585,6 +589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -621,7 +629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.3
+      value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -662,6 +670,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -770,6 +782,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1003,6 +1019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1136,6 +1156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1268,6 +1292,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1455,6 +1483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1532,6 +1564,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1665,6 +1701,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1822,6 +1862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1955,6 +1999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2087,6 +2135,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2250,6 +2302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2383,6 +2439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2515,6 +2575,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2707,6 +2771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2839,6 +2907,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2973,6 +3045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3038,6 +3114,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+--- !u!1 &164471673 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+  m_PrefabInstance: {fileID: 1026461912}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &167688271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3105,6 +3186,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3184,6 +3269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3250,7 +3339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01099968
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3291,6 +3380,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3423,6 +3516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3488,6 +3585,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+--- !u!1 &197588524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+  m_PrefabInstance: {fileID: 1650650175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &211993036 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 160440, guid: 295e4e1a0d0501d4da7e6ca20bc3c0a3, type: 3}
@@ -3588,10 +3690,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1877517650}
   m_SourcePrefab: {fileID: 100100000, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!4 &213632130 stripped
 Transform:
@@ -3665,6 +3774,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3873,6 +3986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4059,6 +4176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4132,6 +4253,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4210,6 +4335,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4481,6 +4610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4614,6 +4747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4691,6 +4828,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4824,6 +4965,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5032,6 +5177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5109,6 +5258,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5214,6 +5367,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5512,6 +5669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5697,6 +5858,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5912,6 +6077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6045,6 +6214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6177,6 +6350,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6384,6 +6561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6517,6 +6698,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6594,6 +6779,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6865,6 +7054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6942,6 +7135,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7098,6 +7295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7175,6 +7376,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7257,6 +7462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7335,6 +7544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7412,6 +7625,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (110)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7545,6 +7762,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7948,6 +8169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8218,6 +8443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8429,6 +8658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8562,6 +8795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8642,6 +8879,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8913,6 +9154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9071,6 +9316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9204,6 +9453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9280,6 +9533,10 @@ PrefabInstance:
     - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_Name
       value: door_animated (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1436665340146445817, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_LocalScale.x
@@ -9440,6 +9697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9516,6 +9777,10 @@ PrefabInstance:
     - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_Name
       value: door_animated (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 98870249108794291, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1436665340146445817, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
       propertyPath: m_LocalScale.x
@@ -9667,6 +9932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9797,6 +10066,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10172,6 +10445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10495,6 +10772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10627,6 +10908,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10761,6 +11046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10838,6 +11127,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10972,6 +11265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11063,7 +11360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6
+      value: -8.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11104,6 +11401,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11377,6 +11678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11510,6 +11815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11617,6 +11926,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11800,6 +12113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11927,6 +12244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12004,6 +12325,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12309,6 +12634,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12518,6 +12847,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12764,6 +13097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12924,6 +13261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13078,6 +13419,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13285,6 +13630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13530,6 +13879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13663,16 +14016,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026461916}
   m_SourcePrefab: {fileID: 100100000, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!4 &1026461913 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
   m_PrefabInstance: {fileID: 1026461912}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1026461916
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164471673}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!1001 &1029539702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13740,6 +14122,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13874,10 +14260,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1782538295}
   m_SourcePrefab: {fileID: 100100000, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!4 &1041173130 stripped
 Transform:
@@ -14193,6 +14586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14352,6 +14749,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14588,6 +14989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14721,6 +15126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14828,6 +15237,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14970,6 +15383,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15131,6 +15548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15211,6 +15632,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15345,6 +15770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15426,6 +15855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15503,6 +15936,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15911,6 +16348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15991,6 +16432,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16123,6 +16568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16201,6 +16650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16278,6 +16731,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16524,6 +16981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16656,6 +17117,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16926,6 +17391,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17430,6 +17899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17582,6 +18055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17714,6 +18191,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17901,6 +18382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18061,6 +18546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18168,6 +18657,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18586,6 +19079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18879,6 +19376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19012,6 +19513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19089,6 +19594,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19250,6 +19759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19354,6 +19867,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19512,6 +20029,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19723,6 +20244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19855,6 +20380,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19989,6 +20518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20121,6 +20654,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20255,6 +20792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20387,6 +20928,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20599,6 +21144,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20810,6 +21359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20887,6 +21440,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21021,6 +21578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21128,6 +21689,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21261,6 +21826,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21471,6 +22040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21667,6 +22240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21799,6 +22376,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22015,6 +22596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22092,6 +22677,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22226,6 +22815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22359,16 +22952,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1650650179}
   m_SourcePrefab: {fileID: 100100000, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!4 &1650650176 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
   m_PrefabInstance: {fileID: 1650650175}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1650650179
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197588524}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!1001 &1650733119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22574,6 +23196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22651,6 +23277,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22784,6 +23414,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22971,6 +23605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23103,6 +23741,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23237,6 +23879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23368,6 +24014,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23553,6 +24203,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23961,6 +24615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24204,6 +24862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24269,6 +24931,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+--- !u!1 &1782538292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+  m_PrefabInstance: {fileID: 1041173129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1782538295
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782538292}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!1 &1788680425 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b26d0713578f69c4982b871cd12fbf15, type: 3}
@@ -24363,6 +25052,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24496,6 +25189,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24733,6 +25430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24866,6 +25567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24946,6 +25651,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25075,6 +25784,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25208,6 +25921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25340,6 +26057,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25487,6 +26208,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82cc5f0d5af650847881af4ec5c30abc, type: 3}
+--- !u!1 &1877517647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+  m_PrefabInstance: {fileID: 213632129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1877517650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877517647}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
 --- !u!1 &1886398487
 GameObject:
   m_ObjectHideFlags: 0
@@ -25842,6 +26590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25974,6 +26726,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26270,6 +27026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26402,6 +27162,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26618,6 +27382,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26858,6 +27626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26991,6 +27763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27098,6 +27874,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27231,6 +28011,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27439,6 +28223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27571,6 +28359,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27839,6 +28631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27971,6 +28767,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28105,6 +28905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28237,6 +29041,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28371,6 +29179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pebble (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28451,6 +29263,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28580,6 +29396,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28711,6 +29531,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28940,7 +29764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.000029563904
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28982,6 +29806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29018,7 +29846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.8
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29059,6 +29887,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
       propertyPath: m_Name
       value: rock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9225c66bd17fc34fb0504f19a6ea21d, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29413,6 +30245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29683,6 +30519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: alien_tree (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29815,6 +30655,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
       propertyPath: m_Name
       value: alien_tree (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e9844c003d7340a468c7a85852e89d88, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30085,6 +30929,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
       propertyPath: m_Name
       value: pebble (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7659b723b5a70a438c90bd319bc611e, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
