@@ -19700,6 +19700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452470455}
+  - component: {fileID: 1452470456}
   m_Layer: 0
   m_Name: PowerlessRanger
   m_TagString: Untagged
@@ -19727,6 +19728,19 @@ Transform:
   - {fileID: 1623053232}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1452470456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452470454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60b4416b59b8b94bbc53d120456db3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LastOfTheirKind: {fileID: 1452470454}
 --- !u!1001 &1457786019
 PrefabInstance:
   m_ObjectHideFlags: 0
