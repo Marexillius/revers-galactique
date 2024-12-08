@@ -130,7 +130,8 @@ using UnityEngine.InputSystem;
 public class BallBounceCounter : MonoBehaviour
 {
 
-    [SerializeField] private InputActionProperty ballSpawnButton;
+    [SerializeField] private InputActionProperty ballSpawnButtonRight;
+    [SerializeField] private InputActionProperty ballSpawnButtonLeft;
 
     private int BounceCounter = 0;
 
@@ -143,7 +144,7 @@ public class BallBounceCounter : MonoBehaviour
 
     private void Update()
     {
-        if (ballSpawnButton.action.WasPressedThisFrame() || Input.GetKeyDown("l"))
+        if (ballSpawnButtonRight.action.WasPressedThisFrame() || Input.GetKeyDown("l") || ballSpawnButtonLeft.action.WasPressedThisFrame())
         {
             teleportBall();
         }

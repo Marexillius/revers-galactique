@@ -13806,13 +13806,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8a6c93197aa05438d41262f29e49a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballSpawnButton:
+  ballSpawnButtonRight:
     m_UseReference: 0
     m_Action:
-      m_Name: Ball Spawn Button
+      m_Name: Ball Spawn Button Right
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: d5a1c28f-276d-4f9b-864c-95fa5a3ae211
+      m_Id: 0c415192-781f-4518-8eaa-2b8912d2d062
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  ballSpawnButtonLeft:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Ball Spawn Button Left
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 8af08e1c-fcdf-4272-be06-142d1c2eb8bf
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -92234,6 +92246,30 @@ PrefabInstance:
       propertyPath: playerBallSpawnLocation
       value: 
       objectReference: {fileID: 1055155003}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Reference
+      value: 
+      objectReference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Reference
+      value: 
+      objectReference: {fileID: 2813451266951382697, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Action.m_Name
+      value: Ball Spawn Button Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071223680669265861, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Action.m_Name
+      value: Ball Spawn Button Right
+      objectReference: {fileID: 0}
     - target: {fileID: 3591600061270064854, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: healthPointsUI.Array.data[0]
       value: 
@@ -92270,6 +92306,30 @@ PrefabInstance:
       propertyPath: playerBallSpawnLocation
       value: 
       objectReference: {fileID: 1055155003}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Reference
+      value: 
+      objectReference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Reference
+      value: 
+      objectReference: {fileID: 2813451266951382697, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonLeft.m_Action.m_Name
+      value: Ball Spawn Button Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5340139101957043633, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
+      propertyPath: ballSpawnButtonRight.m_Action.m_Name
+      value: Ball Spawn Button Right
+      objectReference: {fileID: 0}
     - target: {fileID: 9074529701560082079, guid: 528effffc90a7a242b6c1b0ee5316568, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.32
