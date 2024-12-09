@@ -7,6 +7,7 @@ public class LastStand : MonoBehaviour
     public GameObject waves1;
     public GameObject waves2;
     public GameObject door;
+    public GameObject DoorLight;
 
     private void Update()
     {
@@ -18,6 +19,7 @@ public class LastStand : MonoBehaviour
         if (waves2.transform.childCount <= 0)
         {
             door.GetComponent<BoxCollider>().enabled = true;
+            DoorLight.GetComponent<Light>().intensity = 2;
         }
         else if (waves1.transform.childCount <= 0)
         {
