@@ -180,18 +180,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8a6c93197aa05438d41262f29e49a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballSpawnButton:
-    m_UseReference: 1
+  ballSpawnButtonRight:
+    m_UseReference: 0
     m_Action:
-      m_Name: Ball Spawn Button
+      m_Name: Ball Spawn Button Right
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 44a036da-89b6-403a-a7f0-c03d18185468
+      m_Id: f0678e84-d180-4488-a45e-9d8b36c154f6
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 0}
+  ballSpawnButtonLeft:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Ball Spawn Button Left
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: e516d020-2abd-4923-b4b0-407fb96158c4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   playerBall: {fileID: 396797521670417131, guid: 22d6a670c0806bd4bbff5eb525cd35fe, type: 3}
   playerBallSpawnLocation: {fileID: 3352567700339317669, guid: 93ebc949a39a63b4c9ff1a09902a6ea2, type: 3}
   launchDirection: {x: 0, y: 0, z: 0}
@@ -1132,6 +1144,10 @@ PrefabInstance:
       value: XR Origin (XR Rig)
       objectReference: {fileID: 0}
     - target: {fileID: 8443434419300957006, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
+      propertyPath: hurtSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 40f829222838ccb45b3baf269e6c09b6, type: 3}
+    - target: {fileID: 8443434419300957006, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
       propertyPath: healthPointsUI.Array.data[0]
       value: 
       objectReference: {fileID: 7175978723177072345}
@@ -1158,6 +1174,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6620585413433924436, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3071223680669265861}
+    - targetCorrespondingSourceObject: {fileID: 6620585413433924436, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 70523414951812814}
   m_SourcePrefab: {fileID: 100100000, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
 --- !u!114 &1305923359648529553 stripped
 MonoBehaviour:
@@ -1187,22 +1206,130 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab8a6c93197aa05438d41262f29e49a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballSpawnButton:
-    m_UseReference: 1
+  ballSpawnButtonRight:
+    m_UseReference: 0
     m_Action:
-      m_Name: Ball Spawn Button
+      m_Name: Ball Spawn Button Right
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: d354a80f-dacf-4a2c-af27-d168ab2f4cb0
+      m_Id: 4dc3641b-ca69-4f56-9c9a-b3783c738715
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -402129084875109529, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 0}
+  ballSpawnButtonLeft:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Ball Spawn Button Left
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 147f1921-4b81-403a-b5f2-7579aa93f754
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   playerBall: {fileID: 0}
   playerBallSpawnLocation: {fileID: 0}
   launchDirection: {x: 0, y: 0, z: 0}
   launchForce: 10
+--- !u!82 &70523414951812814
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2241663138177228492}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &6154751682734551711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1265764312901351175, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}

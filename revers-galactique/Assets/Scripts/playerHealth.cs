@@ -9,6 +9,13 @@ public class playerHealth : MonoBehaviour
     public int healthPoints = 5;
     public GameObject[] healthPointsUI;
     private bool hasIframes = false;
+    public AudioClip hurtSound;
+    public AudioSource boomBox;
+
+    private void Start()
+    {
+        boomBox = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -37,6 +44,7 @@ public class playerHealth : MonoBehaviour
     {
         hasIframes = true;
         healthPoints--;
+        boomBox.PlayOneShot(hurtSound, 0.5f);
         Debug.Log(healthPoints);
         healthPointsUI[healthPoints].SetActive(false);
         yield return new WaitForSeconds(3);
