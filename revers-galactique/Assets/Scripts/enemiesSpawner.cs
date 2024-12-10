@@ -7,6 +7,14 @@ public class enemiesSpawner : MonoBehaviour
 
     public GameObject secondWave;
 
+    public AudioClip enemySpawn;
+    public AudioSource boomBox;
+
+    private void Start()
+    {
+        boomBox = GetComponent<AudioSource>();
+    }
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player" && gameObject.tag == "AccessCard")
@@ -18,6 +26,7 @@ public class enemiesSpawner : MonoBehaviour
 
     public void moreEnemies()
     {
+        boomBox.PlayOneShot(enemySpawn, 0.5f);
         secondWave.SetActive(true);
     }
 }
