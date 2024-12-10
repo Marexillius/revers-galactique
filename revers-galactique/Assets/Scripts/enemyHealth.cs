@@ -11,7 +11,6 @@ public class enemyHealth : MonoBehaviour
     private bool hasIframes = false;
 
     public AudioClip enemyDeath;
-    public AudioClip enemyStun;
     public AudioClip enemyDamaged;
     public AudioSource boomBox;
 
@@ -63,7 +62,6 @@ public class enemyHealth : MonoBehaviour
     private IEnumerator StunSequence()
     {
         // Stun sequence here
-        boomBox.PlayOneShot(enemyStun, 0.5f);
 
         container.GetComponent<EnemyAINodeArea>().enabled = false;
         gameObject.GetComponent<Animator>().Play("ennemi_stun_anim");

@@ -273,9 +273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthPoints: 2
   container: {fileID: 4216906418725237705}
-  enemyDeath: {fileID: 0}
-  enemyStun: {fileID: 0}
-  enemyDamaged: {fileID: 0}
+  enemyDeath: {fileID: 8300000, guid: 3c304a7d282223d4a887b85ee3cb2049, type: 3}
+  enemyDamaged: {fileID: 8300000, guid: 40f829222838ccb45b3baf269e6c09b6, type: 3}
   boomBox: {fileID: 0}
 --- !u!1001 &6028030570211614698
 PrefabInstance:
