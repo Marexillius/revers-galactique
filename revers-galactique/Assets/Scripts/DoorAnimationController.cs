@@ -6,25 +6,36 @@ public class DoorAnimationController : MonoBehaviour
 {
 
     private static bool HasCard = false;
+    public AudioClip openSound;
+    public AudioSource boomBox;
+
+    private void Start()
+    {
+        boomBox = GetComponent<AudioSource>();
+    }
 
     public void openSampleDoors()
     {
         gameObject.GetComponent<Animator>().Play("simpleAssets_door_opens");
+        boomBox.PlayOneShot(openSound, 0.5f);
     }
 
     public void closeSampleDoors()
     {
         gameObject.GetComponent<Animator>().Play("simpleAssets_door_close");
+        boomBox.PlayOneShot(openSound, 0.5f);
     }
 
     public void openLargeDoors()
     {
         gameObject.GetComponent<Animator>().Play("largeDoor_Opens");
+        boomBox.PlayOneShot(openSound, 0.5f);
     }
 
     public void closeLargeDoors()
     {
         gameObject.GetComponent<Animator>().Play("largeDoor_Closes");
+        boomBox.PlayOneShot(openSound, 0.5f);
     }
 
     public void endDoor()
@@ -32,6 +43,7 @@ public class DoorAnimationController : MonoBehaviour
         if (HasCard == true)
         {
             gameObject.GetComponent<Animator>().Play("simpleAssets_door_opens");
+            boomBox.PlayOneShot(openSound, 0.5f);
         }
         else
         {
@@ -46,11 +58,14 @@ public class DoorAnimationController : MonoBehaviour
         if (other.tag == "Player" && Door)
         {
             Door.GetComponent<Animator>().Play("simpleAssets_door_close");
+            boomBox.PlayOneShot(openSound, 0.5f);
         } 
         else if (other.tag == "Player" && gameObject.tag == "Door_Large" )
         {
             gameObject.GetComponent<Animator>().Play("largeDoor_Opens");
-        } else if (other.tag == "Player" && gameObject.tag == "AccessCard")
+            boomBox.PlayOneShot(openSound, 0.5f);
+        } 
+        else if (other.tag == "Player" && gameObject.tag == "AccessCard")
         {
             Debug.Log("got card");
             HasCard = true;
@@ -63,6 +78,7 @@ public class DoorAnimationController : MonoBehaviour
         if (other.tag == "Player" && gameObject.tag == "Door_Large")
         {
             gameObject.GetComponent<Animator>().Play("largeDoor_Closes");
+            boomBox.PlayOneShot(openSound, 0.5f);
         }
     }
 

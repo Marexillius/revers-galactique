@@ -17,13 +17,16 @@ public class playerHealth : MonoBehaviour
         boomBox = GetComponent<AudioSource>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
         if (healthPoints == 0)
         {
             deathScreen();
         }
+    }
 
+    private void OnTriggerEnter(Collider other)
+    {
         if (hasIframes == false)
         {
             if (other.tag == "Enemy" || other.tag == "enemyAttack")
