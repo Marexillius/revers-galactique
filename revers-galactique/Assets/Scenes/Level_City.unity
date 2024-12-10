@@ -14735,6 +14735,8 @@ MonoBehaviour:
   waves2: {fileID: 1076123894}
   door: {fileID: 619643307}
   DoorLight: {fileID: 575283068}
+  enemySpawn: {fileID: 8300000, guid: cedb7f8ce124748428f72b5c623bab2b, type: 3}
+  boomBox: {fileID: 0}
 --- !u!82 &1069977794
 AudioSource:
   m_ObjectHideFlags: 0

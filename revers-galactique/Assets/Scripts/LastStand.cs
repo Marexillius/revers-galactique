@@ -9,6 +9,14 @@ public class LastStand : MonoBehaviour
     public GameObject door;
     public GameObject DoorLight;
 
+    public AudioClip enemySpawn;
+    public AudioSource boomBox;
+
+    private void Start()
+    {
+        boomBox = GetComponent<AudioSource>();
+    }
+
     private void Update()
     {
         checkEnemies();
