@@ -26,7 +26,7 @@ public class enemyHealth : MonoBehaviour
     {
         if (healthPoints <= 0)
         {
-            boomBox.PlayOneShot(enemyDeath, 0.5f);
+            boomBox.PlayOneShot(enemyDeath, 0.3f);
             StartCoroutine(DeathSequence());
         }
     }
@@ -77,6 +77,7 @@ public class enemyHealth : MonoBehaviour
     {
         healthPoints--;
         hasIframes = true;
+        boomBox.PlayOneShot(enemyDamaged, 0.3f);
         isDetected.lineOfSight = true;
         yield return new WaitForSeconds(2);
         hasIframes = false;

@@ -26,7 +26,7 @@ public class enemiesSpawner : MonoBehaviour
 
     public void moreEnemies()
     {
-        boomBox.PlayOneShot(enemySpawn, 0.5f);
+        boomBox.PlayOneShot(enemySpawn, 0.4f);
         secondWave.SetActive(true);
     }
 }

@@ -50,7 +50,7 @@ public class playerHealth : MonoBehaviour
     {
         hasIframes = true;
         healthPoints--;
-        boomBox.PlayOneShot(hurtSound, 0.5f);
+        boomBox.PlayOneShot(hurtSound, 0.7f);
         Debug.Log(healthPoints);
         healthPointsUI[healthPoints].SetActive(false);
         yield return new WaitForSeconds(3);

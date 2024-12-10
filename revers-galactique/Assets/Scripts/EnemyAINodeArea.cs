@@ -24,7 +24,6 @@ public class EnemyAINodeArea : MonoBehaviour
 
     public AudioClip enemyAttack;
     public AudioClip enemySpot;
-    public AudioClip enemyDies;
     public AudioSource boomBox;
 
     private void Awake()
@@ -157,7 +156,7 @@ public class EnemyAINodeArea : MonoBehaviour
         ennemyBall.transform.position = new Vector3(ennemyBallSpawnPosition.transform.position.x, ennemyBallSpawnPosition.transform.position.y, ennemyBallSpawnPosition.transform.position.z);
 
         yield return new WaitForSeconds(0.3f);
-        boomBox.PlayOneShot(enemyAttack, 0.5f);
+        boomBox.PlayOneShot(enemyAttack, 0.3f);
         ennemyBall.SetActive(true);
         ennemyBall.GetComponent<Rigidbody>().AddForce(transform.forward * 10f, ForceMode.Impulse);
 
