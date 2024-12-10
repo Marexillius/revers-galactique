@@ -7,7 +7,7 @@ public class dynamiteBoom : MonoBehaviour
     public GameObject broken_rock;
     public GameObject dynamite;
 
-    public AudioClip enemySpawn;
+    public AudioClip boom;
     public AudioSource boomBox;
 
     private void Start()
@@ -19,6 +19,7 @@ public class dynamiteBoom : MonoBehaviour
     {
         if (collision.gameObject.tag == "break")
         {
+            boomBox.PlayOneShot(boom, 0.5f);
             collision.gameObject.SetActive(false);
             gameObject.SetActive(false);
         }
