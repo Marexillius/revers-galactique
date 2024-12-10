@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   broken_rock: {fileID: 0}
   dynamite: {fileID: 0}
-  enemySpawn: {fileID: 0}
+  boom: {fileID: 0}
   boomBox: {fileID: 0}
 --- !u!64 &70780742
 MeshCollider:
@@ -23616,7 +23616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   broken_rock: {fileID: 1600361311}
   dynamite: {fileID: 70780739}
-  enemySpawn: {fileID: 8300000, guid: bdda1f3c32b4d634f8fddcc88369a635, type: 3}
+  boom: {fileID: 8300000, guid: bdda1f3c32b4d634f8fddcc88369a635, type: 3}
   boomBox: {fileID: 0}
 --- !u!82 &1044283598
 AudioSource:
