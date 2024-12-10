@@ -6,6 +6,8 @@ public class DoorAnimationController : MonoBehaviour
 {
 
     private static bool HasCard = false;
+
+    public AudioClip accessDenied;
     public AudioClip openSound;
     public AudioSource boomBox;
 
@@ -49,6 +51,7 @@ public class DoorAnimationController : MonoBehaviour
         {
             Debug.Log("get cards lmao");
             //play sound to say refused
+            boomBox.PlayOneShot(accessDenied, 0.5f);
         }
     }
 

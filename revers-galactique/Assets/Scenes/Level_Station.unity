@@ -34187,6 +34187,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 144416, guid: 4eefebe457be66c4bb1c7b678fc1baf6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 796064808}
+    - targetCorrespondingSourceObject: {fileID: 144416, guid: 4eefebe457be66c4bb1c7b678fc1baf6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 796064809}
   m_SourcePrefab: {fileID: 100100000, guid: 4eefebe457be66c4bb1c7b678fc1baf6, type: 3}
 --- !u!1 &796064799 stripped
 GameObject:
@@ -34210,7 +34213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a865b2063f0b8f4faf88254013f0ca2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openSound: {fileID: 0}
+  accessDenied: {fileID: 8300000, guid: 4170207a32d4a6040bf6e33738665f07, type: 3}
+  openSound: {fileID: 8300000, guid: a8cdaf28084779d4699de2fb19ace46c, type: 3}
   boomBox: {fileID: 0}
   Door: {fileID: 0}
 --- !u!95 &796064802
@@ -34255,6 +34259,102 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.0192113, y: 2.982393, z: 0.67318743}
   m_Center: {x: -1.0086443, y: 2.5058045, z: 0.000007629396}
+--- !u!82 &796064809
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796064799}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &799337004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43234,6 +43334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a865b2063f0b8f4faf88254013f0ca2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  accessDenied: {fileID: 0}
   openSound: {fileID: 0}
   boomBox: {fileID: 0}
   Door: {fileID: 0}
@@ -43522,6 +43623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a865b2063f0b8f4faf88254013f0ca2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  accessDenied: {fileID: 0}
   openSound: {fileID: 8300000, guid: a8cdaf28084779d4699de2fb19ace46c, type: 3}
   boomBox: {fileID: 0}
   Door: {fileID: 0}
@@ -51550,6 +51652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a865b2063f0b8f4faf88254013f0ca2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  accessDenied: {fileID: 0}
   openSound: {fileID: 8300000, guid: a8cdaf28084779d4699de2fb19ace46c, type: 3}
   boomBox: {fileID: 0}
   Door: {fileID: 976675409}
