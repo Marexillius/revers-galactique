@@ -1148,6 +1148,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 40f829222838ccb45b3baf269e6c09b6, type: 3}
     - target: {fileID: 8443434419300957006, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3c304a7d282223d4a887b85ee3cb2049, type: 3}
+    - target: {fileID: 8443434419300957006, guid: 81679f7e0ce45404494e2fab77fef0ba, type: 3}
       propertyPath: healthPointsUI.Array.data[0]
       value: 
       objectReference: {fileID: 7175978723177072345}
@@ -1245,7 +1249,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

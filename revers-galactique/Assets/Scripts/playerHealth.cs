@@ -9,7 +9,9 @@ public class playerHealth : MonoBehaviour
     public int healthPoints = 5;
     public GameObject[] healthPointsUI;
     private bool hasIframes = false;
+
     public AudioClip hurtSound;
+    public AudioClip deathSound;
     public AudioSource boomBox;
 
     private void Start()
@@ -21,7 +23,7 @@ public class playerHealth : MonoBehaviour
     {
         if (healthPoints == 0)
         {
-            boomBox.PlayOneShot(hurtSound, 0.5f);
+            boomBox.PlayOneShot(deathSound, 0.5f);
             deathScreen();
         }
     }
