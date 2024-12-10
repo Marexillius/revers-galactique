@@ -50,7 +50,7 @@ public class EnemyAINodeArea : MonoBehaviour
         if (currentTarget == null) return;
         
         if (lineOfSight == true){
-            boomBox.PlayOneShot(enemySpot, 0.3f);
+            boomBox.PlayOneShot(enemySpot, 0.1f);
             RotateTowardsPlayer();
             if (Vector3.Distance(transform.position, Player.transform.position) < 10f)
             {
