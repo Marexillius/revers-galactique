@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 public class dynamiteBoom : MonoBehaviour
@@ -19,9 +20,7 @@ public class dynamiteBoom : MonoBehaviour
     {
         if (collision.gameObject.tag == "break")
         {
-            boomBox.PlayOneShot(boom, 0.5f);
-            collision.gameObject.SetActive(false);
-            gameObject.SetActive(false);
+            StartCoroutine(DoBoom());
         }
     }
 
@@ -29,5 +28,14 @@ public class dynamiteBoom : MonoBehaviour
     {
             gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
         gameObject.transform.position = new Vector3(dynamite.transform.position.x, dynamite.transform.position.y, dynamite.transform.position.z);
+    }
+
+    private IEnumerator DoBoom()
+    {
+        boomBox.PlayOneShot(boom, 0.7f);
+        yield return new WaitForSeconds(1);
+        broken_rock.gameObject.SetActive(false);
+        gameObject.SetActive(false);
+        yield break;
     }
 }

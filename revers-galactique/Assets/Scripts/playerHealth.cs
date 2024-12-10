@@ -43,7 +43,7 @@ public class playerHealth : MonoBehaviour
     {
         Debug.Log("DEATH");
         boomBox.PlayOneShot(deathSound, 0.5f);
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2.5f);
         SceneManager.LoadScene("Level_Death");
         yield break;
     }
