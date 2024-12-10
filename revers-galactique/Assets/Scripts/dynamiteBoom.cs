@@ -7,6 +7,14 @@ public class dynamiteBoom : MonoBehaviour
     public GameObject broken_rock;
     public GameObject dynamite;
 
+    public AudioClip enemySpawn;
+    public AudioSource boomBox;
+
+    private void Start()
+    {
+        boomBox = GetComponent<AudioSource>();
+    }
+
     void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.tag == "break")
