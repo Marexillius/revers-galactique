@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LevelSwitcher : MonoBehaviour
 {
+
+    private static bool HasCard = false;
     private UnityEngine.SceneManagement.Scene whereIam;
 
     void Start()
@@ -27,11 +29,13 @@ public class LevelSwitcher : MonoBehaviour
 
     public void startGame()
     {
+        HasCard = false;
         SceneManager.LoadScene("Level_Station"); 
     }
 
     public void mainMenu()
     {
+        HasCard = false;
         SceneManager.LoadScene("Level_Start");
     }
 
