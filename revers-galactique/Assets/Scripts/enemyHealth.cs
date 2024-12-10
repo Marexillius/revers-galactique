@@ -9,16 +9,25 @@ public class enemyHealth : MonoBehaviour
     private EnemyAINodeArea isDetected;
 
     private bool hasIframes = false;
-    
+
+    public AudioClip enemyDeath;
+    public AudioClip enemyStun;
+    public AudioClip enemyDamaged;
+    public AudioSource boomBox;
+
+
+
     private void Start()
     {
         isDetected = container.GetComponent<EnemyAINodeArea>();
+        boomBox = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
         if (healthPoints <= 0)
         {
+            boomBox.PlayOneShot(enemyDeath, 0.5f);
             StartCoroutine(DeathSequence());
         }
     }
@@ -54,6 +63,7 @@ public class enemyHealth : MonoBehaviour
     private IEnumerator StunSequence()
     {
         // Stun sequence here
+        boomBox.PlayOneShot(enemyStun, 0.5f);
 
         container.GetComponent<EnemyAINodeArea>().enabled = false;
         gameObject.GetComponent<Animator>().Play("ennemi_stun_anim");

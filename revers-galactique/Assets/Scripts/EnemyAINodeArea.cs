@@ -22,6 +22,11 @@ public class EnemyAINodeArea : MonoBehaviour
     public GameObject ennemyBall;
     public GameObject ennemyBallSpawnPosition;
 
+    public AudioClip enemyAttack;
+    public AudioClip enemySpot;
+    public AudioClip enemyDies;
+    public AudioSource boomBox;
+
     private void Awake()
     {
         //Debug.Log(NodeArea.transform.childCount);
@@ -37,6 +42,7 @@ public class EnemyAINodeArea : MonoBehaviour
     private void Start()
     {
         SetRandomTargetNode();
+        boomBox = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -44,6 +50,7 @@ public class EnemyAINodeArea : MonoBehaviour
         if (currentTarget == null) return;
         
         if (lineOfSight == true){
+            boomBox.PlayOneShot(enemySpot, 0.5f);
             RotateTowardsPlayer();
             if (Vector3.Distance(transform.position, Player.transform.position) < 10f)
             {
@@ -150,6 +157,7 @@ public class EnemyAINodeArea : MonoBehaviour
         ennemyBall.transform.position = new Vector3(ennemyBallSpawnPosition.transform.position.x, ennemyBallSpawnPosition.transform.position.y, ennemyBallSpawnPosition.transform.position.z);
 
         yield return new WaitForSeconds(0.3f);
+        boomBox.PlayOneShot(enemyAttack, 0.5f);
         ennemyBall.SetActive(true);
         ennemyBall.GetComponent<Rigidbody>().AddForce(transform.forward * 10f, ForceMode.Impulse);
 

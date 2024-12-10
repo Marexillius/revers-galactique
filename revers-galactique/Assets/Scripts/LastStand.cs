@@ -31,6 +31,7 @@ public class LastStand : MonoBehaviour
         }
         else if (waves1.transform.childCount <= 0)
         {
+            boomBox.PlayOneShot(enemySpawn, 0.5f);
             waves2.SetActive(true);
         }
     }
