@@ -21,6 +21,7 @@ public class playerHealth : MonoBehaviour
     {
         if (healthPoints == 0)
         {
+            boomBox.PlayOneShot(hurtSound, 0.5f);
             deathScreen();
         }
     }
