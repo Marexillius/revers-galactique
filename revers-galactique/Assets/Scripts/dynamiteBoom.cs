@@ -32,7 +32,7 @@ public class dynamiteBoom : MonoBehaviour
 
     private IEnumerator DoBoom()
     {
-        boomBox.PlayOneShot(boom, 0.7f);
+        boomBox.PlayOneShot(boom, 1f);
         yield return new WaitForSeconds(1);
         broken_rock.gameObject.SetActive(false);
         gameObject.SetActive(false);
