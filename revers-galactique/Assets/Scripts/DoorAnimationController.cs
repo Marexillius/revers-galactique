@@ -51,7 +51,7 @@ public class DoorAnimationController : MonoBehaviour
         {
             Debug.Log("get cards lmao");
             //play sound to say refused
-            boomBox.PlayOneShot(accessDenied, 0.5f);
+            boomBox.PlayOneShot(accessDenied, 1f);
         }
     }
 
