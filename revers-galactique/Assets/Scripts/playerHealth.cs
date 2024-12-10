@@ -23,8 +23,7 @@ public class playerHealth : MonoBehaviour
     {
         if (healthPoints == 0)
         {
-            boomBox.PlayOneShot(deathSound, 0.5f);
-            deathScreen();
+            StartCoroutine(deathScreen());
         }
     }
 
@@ -40,10 +39,13 @@ public class playerHealth : MonoBehaviour
 
     }
 
-    public void deathScreen()
+    private IEnumerator deathScreen()
     {
         Debug.Log("DEATH");
+        boomBox.PlayOneShot(deathSound, 0.5f);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene("Level_Death");
+        yield break;
     }
 
     private IEnumerator healthCounter()
@@ -57,4 +59,5 @@ public class playerHealth : MonoBehaviour
         hasIframes = false;
         yield break;
     }
+
 }
